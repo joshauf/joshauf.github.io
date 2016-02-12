@@ -1,0 +1,65 @@
+var mboxCurrent = mboxFactories.get('default').get('BOA_HOME_SIGNON_SERVICE_03',0);mboxCurrent.setOffer(new mboxOfferAjax('<div id=\"mboxClick-BOA_HOME_SIGNON_SERVICE_03\" onclick=\"mboxFactories.get(\'default\').getSignaler().signal(\'click\', \'BOA_HOME_SIGNON_SERVICE_03-clicked\', \'mboxTarget=41035.213\')\"><!-- Offer Id: 181660  --><div class=\'media-module\'><a href=\"https:\/\/red.bankofamerica.com\/aids-free.html?s_src=BAC_WAD_HU1&cm_sp=EBZ-Corp_SocialResponsibility-_-CorporateSocialResponsibility-_-EIT1C3BD_sc_red-evergreen_arm6pm3k_s.gif\" name=\"EIT1C3BD\" target=\"_self\"><img src=\"https:\/\/www.bac-assets.com\/content\/images\/ContextualSiteGraphics\/Marketing\/Highlights\/en_US\/sc_red-evergreen_arm6pm3k_s.gif\" alt=\"Meet Connie. Learn how HIV-positive mothers can give birth to HIV-free babies. See her story\" title=\"Meet Connie. Learn how HIV-positive mothers can give birth to HIV-free babies. See her story\" width=\"223\" height=\"115\" \/><\/a><\/div><\/div><!-- Offer Id: 132832  -->'));mboxCurrent.getOffer().setOnLoad(function() {
+(function() {
+
+function tryAgain(args, _this) { var self = arguments.callee; var func = args.callee; func.current = (func.current || 0) + (func.interval || self.interval); if (func.current <= (func.max || self.max)) { setTimeout(function() { func.apply((_this || {}), Array.prototype.slice.call(args)) }, (func.interval || self.interval) ); return true; } else return false; }; 
+tryAgain.max = 8000; 
+tryAgain.interval = 500;
+
+mboxTrack= function(mbox) { var d = new Date(); if (window.mboxFactoryDefault) { var ub = mboxFactoryDefault.getUrlBuilder().clone(); ub.addParameter("mbox", mbox); ub.addParameter('mboxTime', d.getTime() - (d.getTimezoneOffset() * 60000)); ub.addParameters(Array.prototype.slice.call(arguments).slice(1)); ub.addParameter("mboxPage", mboxGenerateId()); var img = new Image(); img.src = ub.buildUrl().replace("/mbox/undefined", "/mbox/ajax"); img.style.display = "none"; if (document.body) document.body.insertBefore(img,document.body.firstChild); } };
+
+function addTopNavClickTracking() {
+
+    if (window.$) {
+	
+	var handledAttribute = "adbe-handled";
+	var $nav = $(".power-menu-module a:not([" + handledAttribute + "])");
+
+	$nav.each(function() {
+
+	   if (this.parentNode.nodeName.toLowerCase()=="li") { // TOP LEVEL ELEM
+		   var currName = $(this).attr("name");
+                   var href           = $(this).attr("href");   
+	   } else { // SECOND LEVEL ELEM
+		   var currName = $(this).attr("name");
+                          var href           = $(this).attr("href");
+                          var ancestor   = $(this).parents("li").children("a");
+		   //var ancestorName = ancestor.html().split("<")[0];
+
+                   if (ancestor.children("span").length == 1)
+                       var ancestorName = $.trim(ancestor.html().split("<")[0]);
+                   else if (ancestor.children()[0])
+                       var ancestorName = $.trim(ancestor.find("span:eq(0)").html().split("<")[0]);
+                   else
+                       var ancestorName = $.trim(ancestor.html());
+
+                          /*
+                          ancestorName = $.trim(ancestorName);
+                          // 3-14-14 fix for empty lvl1 for merrill menu items
+                          if( ancestorName == ""){
+                              if(ancestor.html().indexOf('<span class="invest">') != -1){ 
+                                  ancestorName = "Invest";
+                               } else {
+                                  ancestorName = "NA"
+                               }
+                               //console.log(ancestorName);
+                           } */
+
+		   $(this).click(function() { 
+				mboxTrack("mboxClickTrack", "lvl1="+ancestorName, "lvl2="+currName, "fromPlugin=true");
+	                        window.setTimeout("window.location.href='"+href+"'",750);
+	                        return false;	
+		   }).attr(handledAttribute,"true");     
+	   }
+	
+	});
+	
+    }; // if (window.$)
+
+    tryAgain(arguments);
+
+}; // function
+
+addTopNavClickTracking();
+
+})();
+});mboxCurrent.loaded();mboxFactories.get('default').getPCId().forceId("1453207084069-888716.17_38");
