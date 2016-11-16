@@ -1,0 +1,2114 @@
+<html>
+<head><style type="text/css" id="bc-style-vjs">.video-js .vjs-big-play-button:before, .video-js .vjs-control:before, .video-js .vjs-modal-dialog, .vjs-modal-dialog .vjs-modal-dialog-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.video-js .vjs-big-play-button:before, .video-js .vjs-control:before {
+  text-align: center; }
+
+@font-face {
+  font-family: VideoJS;
+  src: url("http://vjs.zencdn.net/font/1.5.1/VideoJS.eot?#iefix") format("eot"); }
+
+@font-face {
+  font-family: VideoJS;
+  src: url(data:application/font-woff;charset=utf-8;base64,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) format("woff"), url(data:application/x-font-ttf;charset=utf-8;base64,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FjY3PgE3LgEnIwYfAR4BFw4BBTM/ARUzESMGAyUVJwMchM2UWwgNq4JHrQgBAapUaAoJcWMBfiIhDiMrAQJLMB0BBAokNAIBPmMiIQ4iLAECSzAeAQUKJDQBP2MiIQ4iLAECSzAeAQUKJDQBAT75g+5B4arNLNIBJ44ByQL9BQ9mvYCKwA8FBQMDwwJVTGdzBf6VB8IHNR08lld9uT4LCRA/qGNxvUwHNR08lld9uT4LCRA/qGNxvUwHNR08lld9uT4LCRA/qGNxvVJkAWUDDEf+tYP5AQAAAAEAAAAABiAGtgAbAAABBAADER4BFzMRITU2ADcWABcVIREzPgE3EQIAA4D+4v6FBwJ/X+D+1QYBJ97eAScG/tXgX38CB/6FBrUH/oX+4v32X38CAlWV3gEnBgb+2d6V/asCf18CCgEeAXsAAAAAEADGAAEAAAAAAAEABwAAAAEAAAAAAAIABwAHAAEAAAAAAAMABwAOAAEAAAAAAAQABwAVAAEAAAAAAAUACwAcAAEAAAAAAAYABwAnAAEAAAAAAAoAKwAuAAEAAAAAAAsAEwBZAAMAAQQJAAEADgBsAAMAAQQJAAIADgB6AAMAAQQJAAMADgCIAAMAAQQJAAQADgCWAAMAAQQJAAUAFgCkAAMAAQQJAAYADgC6AAMAAQQJAAoAVgDIAAMAAQQJAAsAJgEeVmlkZW9KU1JlZ3VsYXJWaWRlb0pTVmlkZW9KU1ZlcnNpb24gMS4wVmlkZW9KU0dlbmVyYXRlZCBieSBzdmcydHRmIGZyb20gRm9udGVsbG8gcHJvamVjdC5odHRwOi8vZm9udGVsbG8uY29tAFYAaQBkAGUAbwBKAFMAUgBlAGcAdQBsAGEAcgBWAGkAZABlAG8ASgBTAFYAaQBkAGUAbwBKAFMAVgBlAHIAcwBpAG8AbgAgADEALgAwAFYAaQBkAGUAbwBKAFMARwBlAG4AZQByAGEAdABlAGQAIABiAHkAIABzAHYAZwAyAHQAdABmACAAZgByAG8AbQAgAEYAbwBuAHQAZQBsAGwAbwAgAHAAcgBvAGoAZQBjAHQALgBoAHQAdABwADoALwAvAGYAbwBuAHQAZQBsAGwAbwAuAGMAbwBtAAAAAgAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAAABAgEDAQQBBQEGAQcBCAEJAQoBCwEMAQ0BDgEPARABEQESARMBFAEVARYBFwEYARkBGgEbARwBHQEeAR8EcGxheQtwbGF5LWNpcmNsZQVwYXVzZQt2b2x1bWUtbXV0ZQp2b2x1bWUtbG93CnZvbHVtZS1taWQLdm9sdW1lLWhpZ2gQZnVsbHNjcmVlbi1lbnRlcg9mdWxsc2NyZWVuLWV4aXQGc3F1YXJlB3NwaW5uZXIJc3VidGl0bGVzCGNhcHRpb25zCGNoYXB0ZXJzBXNoYXJlA2NvZwZjaXJjbGUOY2lyY2xlLW91dGxpbmUTY2lyY2xlLWlubmVyLWNpcmNsZQJoZAZjYW5jZWwGcmVwbGF5CGZhY2Vib29rBWdwbHVzCGxpbmtlZGluB3R3aXR0ZXIGdHVtYmxyCXBpbnRlcmVzdBFhdWRpby1kZXNjcmlwdGlvbgVhdWRpbwAAAAAA) format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+.vjs-icon-play, .video-js .vjs-big-play-button, .video-js .vjs-play-control {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-play:before, .video-js .vjs-big-play-button:before, .video-js .vjs-play-control:before {
+    content: "\f101"; }
+
+.vjs-icon-play-circle {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-play-circle:before {
+    content: "\f102"; }
+
+.vjs-icon-pause, .video-js .vjs-play-control.vjs-playing {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-pause:before, .video-js .vjs-play-control.vjs-playing:before {
+    content: "\f103"; }
+
+.vjs-icon-volume-mute, .video-js .vjs-mute-control.vjs-vol-0,
+.video-js .vjs-volume-menu-button.vjs-vol-0 {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-volume-mute:before, .video-js .vjs-mute-control.vjs-vol-0:before,
+  .video-js .vjs-volume-menu-button.vjs-vol-0:before {
+    content: "\f104"; }
+
+.vjs-icon-volume-low, .video-js .vjs-mute-control.vjs-vol-1,
+.video-js .vjs-volume-menu-button.vjs-vol-1 {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-volume-low:before, .video-js .vjs-mute-control.vjs-vol-1:before,
+  .video-js .vjs-volume-menu-button.vjs-vol-1:before {
+    content: "\f105"; }
+
+.vjs-icon-volume-mid, .video-js .vjs-mute-control.vjs-vol-2,
+.video-js .vjs-volume-menu-button.vjs-vol-2 {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-volume-mid:before, .video-js .vjs-mute-control.vjs-vol-2:before,
+  .video-js .vjs-volume-menu-button.vjs-vol-2:before {
+    content: "\f106"; }
+
+.vjs-icon-volume-high, .video-js .vjs-mute-control,
+.video-js .vjs-volume-menu-button {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-volume-high:before, .video-js .vjs-mute-control:before,
+  .video-js .vjs-volume-menu-button:before {
+    content: "\f107"; }
+
+.vjs-icon-fullscreen-enter, .video-js .vjs-fullscreen-control {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-fullscreen-enter:before, .video-js .vjs-fullscreen-control:before {
+    content: "\f108"; }
+
+.vjs-icon-fullscreen-exit, .video-js.vjs-fullscreen .vjs-fullscreen-control {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-fullscreen-exit:before, .video-js.vjs-fullscreen .vjs-fullscreen-control:before {
+    content: "\f109"; }
+
+.vjs-icon-square {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-square:before {
+    content: "\f10a"; }
+
+.vjs-icon-spinner {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-spinner:before {
+    content: "\f10b"; }
+
+.vjs-icon-subtitles, .video-js .vjs-subtitles-button {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-subtitles:before, .video-js .vjs-subtitles-button:before {
+    content: "\f10c"; }
+
+.vjs-icon-captions, .video-js .vjs-captions-button {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-captions:before, .video-js .vjs-captions-button:before {
+    content: "\f10d"; }
+
+.vjs-icon-chapters, .video-js .vjs-chapters-button {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-chapters:before, .video-js .vjs-chapters-button:before {
+    content: "\f10e"; }
+
+.vjs-icon-share {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-share:before {
+    content: "\f10f"; }
+
+.vjs-icon-cog {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-cog:before {
+    content: "\f110"; }
+
+.vjs-icon-circle, .video-js .vjs-mouse-display, .video-js .vjs-play-progress, .video-js .vjs-volume-level {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-circle:before, .video-js .vjs-mouse-display:before, .video-js .vjs-play-progress:before, .video-js .vjs-volume-level:before {
+    content: "\f111"; }
+
+.vjs-icon-circle-outline {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-circle-outline:before {
+    content: "\f112"; }
+
+.vjs-icon-circle-inner-circle {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-circle-inner-circle:before {
+    content: "\f113"; }
+
+.vjs-icon-hd {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-hd:before {
+    content: "\f114"; }
+
+.vjs-icon-cancel, .video-js .vjs-control.vjs-close-button {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-cancel:before, .video-js .vjs-control.vjs-close-button:before {
+    content: "\f115"; }
+
+.vjs-icon-replay {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-replay:before {
+    content: "\f116"; }
+
+.vjs-icon-facebook {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-facebook:before {
+    content: "\f117"; }
+
+.vjs-icon-gplus {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-gplus:before {
+    content: "\f118"; }
+
+.vjs-icon-linkedin {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-linkedin:before {
+    content: "\f119"; }
+
+.vjs-icon-twitter {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-twitter:before {
+    content: "\f11a"; }
+
+.vjs-icon-tumblr {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-tumblr:before {
+    content: "\f11b"; }
+
+.vjs-icon-pinterest {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-pinterest:before {
+    content: "\f11c"; }
+
+.vjs-icon-audio-description, .video-js .vjs-descriptions-button {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-audio-description:before, .video-js .vjs-descriptions-button:before {
+    content: "\f11d"; }
+
+.vjs-icon-audio, .video-js .vjs-audio-button {
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal; }
+  .vjs-icon-audio:before, .video-js .vjs-audio-button:before {
+    content: "\f11e"; }
+
+.video-js {
+  display: block;
+  vertical-align: top;
+  box-sizing: border-box;
+  color: #fff;
+  background-color: #000;
+  position: relative;
+  padding: 0;
+  font-size: 10px;
+  line-height: 1;
+  font-weight: normal;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+  .video-js:-moz-full-screen {
+    position: absolute; }
+  .video-js:-webkit-full-screen {
+    width: 100% !important;
+    height: 100% !important; }
+
+.video-js *,
+.video-js *:before,
+.video-js *:after {
+  box-sizing: inherit; }
+
+.video-js ul {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  list-style-position: outside;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.video-js.vjs-fluid,
+.video-js.vjs-16-9,
+.video-js.vjs-4-3 {
+  width: 100%;
+  max-width: 100%;
+  height: 0; }
+
+.video-js.vjs-16-9 {
+  padding-top: 56.25%; }
+
+.video-js.vjs-4-3 {
+  padding-top: 75%; }
+
+.video-js.vjs-fill {
+  width: 100%;
+  height: 100%; }
+
+.video-js .vjs-tech {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+body.vjs-full-window {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  overflow-y: auto; }
+
+.vjs-full-window .video-js.vjs-fullscreen {
+  position: fixed;
+  overflow: hidden;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0; }
+
+.video-js.vjs-fullscreen {
+  width: 100% !important;
+  height: 100% !important;
+  padding-top: 0 !important; }
+
+.video-js.vjs-fullscreen.vjs-user-inactive {
+  cursor: none; }
+
+.vjs-hidden {
+  display: none !important; }
+
+.vjs-disabled {
+  opacity: 0.5;
+  cursor: default; }
+
+.video-js .vjs-offscreen {
+  height: 1px;
+  left: -9999px;
+  position: absolute;
+  top: 0;
+  width: 1px; }
+
+.vjs-lock-showing {
+  display: block !important;
+  opacity: 1;
+  visibility: visible; }
+
+.vjs-no-js {
+  padding: 20px;
+  color: #fff;
+  background-color: #000;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 300px;
+  height: 150px;
+  margin: 0px auto; }
+
+.vjs-no-js a,
+.vjs-no-js a:visited {
+  color: #66A8CC; }
+
+.video-js .vjs-big-play-button {
+  font-size: 3em;
+  line-height: 1.5em;
+  height: 1.5em;
+  width: 3em;
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 0;
+  cursor: pointer;
+  opacity: 1;
+  border: 0.06666em solid #fff;
+  background-color: #2B333F;
+  background-color: rgba(43, 51, 63, 0.7);
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  border-radius: 0.3em;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s; }
+
+.vjs-big-play-centered .vjs-big-play-button {
+  top: 50%;
+  left: 50%;
+  margin-top: -0.75em;
+  margin-left: -1.5em; }
+
+.video-js:hover .vjs-big-play-button,
+.video-js .vjs-big-play-button:focus {
+  outline: 0;
+  border-color: #fff;
+  background-color: #73859f;
+  background-color: rgba(115, 133, 159, 0.5);
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  -o-transition: all 0s;
+  transition: all 0s; }
+
+.vjs-controls-disabled .vjs-big-play-button,
+.vjs-has-started .vjs-big-play-button,
+.vjs-using-native-controls .vjs-big-play-button,
+.vjs-error .vjs-big-play-button {
+  display: none; }
+
+.video-js button {
+  background: none;
+  border: none;
+  color: inherit;
+  display: inline-block;
+  overflow: visible;
+  font-size: inherit;
+  line-height: inherit;
+  text-transform: none;
+  text-decoration: none;
+  transition: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+
+.video-js .vjs-control.vjs-close-button {
+  cursor: pointer;
+  height: 3em;
+  position: absolute;
+  right: 0;
+  top: 0.5em;
+  z-index: 2; }
+
+.vjs-menu-button {
+  cursor: pointer; }
+
+.vjs-menu-button.vjs-disabled {
+  cursor: default; }
+
+.vjs-workinghover .vjs-menu-button.vjs-disabled:hover .vjs-menu {
+  display: none; }
+
+.vjs-menu .vjs-menu-content {
+  display: block;
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.vjs-scrubbing .vjs-menu-button:hover .vjs-menu {
+  display: none; }
+
+.vjs-menu li {
+  list-style: none;
+  margin: 0;
+  padding: 0.2em 0;
+  line-height: 1.4em;
+  font-size: 1.2em;
+  text-align: center;
+  text-transform: lowercase; }
+
+.vjs-menu li:focus,
+.vjs-menu li:hover {
+  outline: 0;
+  background-color: #73859f;
+  background-color: rgba(115, 133, 159, 0.5); }
+
+.vjs-menu li.vjs-selected,
+.vjs-menu li.vjs-selected:focus,
+.vjs-menu li.vjs-selected:hover {
+  background-color: #fff;
+  color: #2B333F; }
+
+.vjs-menu li.vjs-menu-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1em;
+  line-height: 2em;
+  padding: 0;
+  margin: 0 0 0.3em 0;
+  font-weight: bold;
+  cursor: default; }
+
+.vjs-menu-button-popup .vjs-menu {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  width: 10em;
+  left: -3em;
+  height: 0em;
+  margin-bottom: 1.5em;
+  border-top-color: rgba(43, 51, 63, 0.7); }
+
+.vjs-menu-button-popup .vjs-menu .vjs-menu-content {
+  background-color: #2B333F;
+  background-color: rgba(43, 51, 63, 0.7);
+  position: absolute;
+  width: 100%;
+  bottom: 1.5em;
+  max-height: 15em; }
+
+.vjs-workinghover .vjs-menu-button-popup:hover .vjs-menu,
+.vjs-menu-button-popup .vjs-menu.vjs-lock-showing {
+  display: block; }
+
+.video-js .vjs-menu-button-inline {
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  overflow: hidden; }
+
+.video-js .vjs-menu-button-inline:before {
+  width: 2.222222222em; }
+
+.video-js .vjs-menu-button-inline:hover,
+.video-js .vjs-menu-button-inline:focus,
+.video-js .vjs-menu-button-inline.vjs-slider-active,
+.video-js.vjs-no-flex .vjs-menu-button-inline {
+  width: 12em; }
+
+.video-js .vjs-menu-button-inline.vjs-slider-active {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none; }
+
+.vjs-menu-button-inline .vjs-menu {
+  opacity: 0;
+  height: 100%;
+  width: auto;
+  position: absolute;
+  left: 4em;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s; }
+
+.vjs-menu-button-inline:hover .vjs-menu,
+.vjs-menu-button-inline:focus .vjs-menu,
+.vjs-menu-button-inline.vjs-slider-active .vjs-menu {
+  display: block;
+  opacity: 1; }
+
+.vjs-no-flex .vjs-menu-button-inline .vjs-menu {
+  display: block;
+  opacity: 1;
+  position: relative;
+  width: auto; }
+
+.vjs-no-flex .vjs-menu-button-inline:hover .vjs-menu,
+.vjs-no-flex .vjs-menu-button-inline:focus .vjs-menu,
+.vjs-no-flex .vjs-menu-button-inline.vjs-slider-active .vjs-menu {
+  width: auto; }
+
+.vjs-menu-button-inline .vjs-menu-content {
+  width: auto;
+  height: 100%;
+  margin: 0;
+  overflow: hidden; }
+
+.video-js .vjs-control-bar {
+  display: none;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3.0em;
+  background-color: #2B333F;
+  background-color: rgba(43, 51, 63, 0.7); }
+
+.vjs-has-started .vjs-control-bar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: visibility 0.1s, opacity 0.1s;
+  -moz-transition: visibility 0.1s, opacity 0.1s;
+  -o-transition: visibility 0.1s, opacity 0.1s;
+  transition: visibility 0.1s, opacity 0.1s; }
+
+.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
+  visibility: visible;
+  opacity: 0;
+  -webkit-transition: visibility 1s, opacity 1s;
+  -moz-transition: visibility 1s, opacity 1s;
+  -o-transition: visibility 1s, opacity 1s;
+  transition: visibility 1s, opacity 1s; }
+
+.vjs-controls-disabled .vjs-control-bar,
+.vjs-using-native-controls .vjs-control-bar,
+.vjs-error .vjs-control-bar {
+  display: none !important; }
+
+.vjs-audio.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
+  opacity: 1;
+  visibility: visible; }
+
+.vjs-has-started.vjs-no-flex .vjs-control-bar {
+  display: table; }
+
+.video-js .vjs-control {
+  outline: none;
+  position: relative;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 4em;
+  -webkit-box-flex: none;
+  -moz-box-flex: none;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none; }
+  .video-js .vjs-control:before {
+    font-size: 1.8em;
+    line-height: 1.67; }
+
+.video-js .vjs-control:focus:before,
+.video-js .vjs-control:hover:before,
+.video-js .vjs-control:focus {
+  text-shadow: 0em 0em 1em white; }
+
+.video-js .vjs-control-text {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+.vjs-no-flex .vjs-control {
+  display: table-cell;
+  vertical-align: middle; }
+
+.video-js .vjs-custom-control-spacer {
+  display: none; }
+
+.video-js .vjs-progress-control {
+  -webkit-box-flex: auto;
+  -moz-box-flex: auto;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 4em; }
+
+.vjs-live .vjs-progress-control {
+  display: none; }
+
+.video-js .vjs-progress-holder {
+  -webkit-box-flex: auto;
+  -moz-box-flex: auto;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  height: 0.3em; }
+
+.video-js .vjs-progress-control:hover .vjs-progress-holder {
+  font-size: 1.666666666666666666em; }
+
+/* If we let the font size grow as much as everything else, the current time tooltip ends up
+ ginormous. If you'd like to enable the current time tooltip all the time, this should be disabled
+ to avoid a weird hitch when you roll off the hover. */
+.video-js .vjs-progress-control:hover .vjs-time-tooltip,
+.video-js .vjs-progress-control:hover .vjs-mouse-display:after,
+.video-js .vjs-progress-control:hover .vjs-play-progress:after {
+  font-family: Arial, Helvetica, sans-serif;
+  visibility: visible;
+  font-size: 0.6em; }
+
+.video-js .vjs-progress-holder .vjs-play-progress,
+.video-js .vjs-progress-holder .vjs-load-progress,
+.video-js .vjs-progress-holder .vjs-tooltip-progress-bar,
+.video-js .vjs-progress-holder .vjs-load-progress div {
+  position: absolute;
+  display: block;
+  height: 0.3em;
+  margin: 0;
+  padding: 0;
+  width: 0;
+  left: 0;
+  top: 0; }
+
+.video-js .vjs-mouse-display:before {
+  display: none; }
+
+.video-js .vjs-play-progress {
+  background-color: #fff; }
+  .video-js .vjs-play-progress:before {
+    position: absolute;
+    top: -0.333333333333333em;
+    right: -0.5em;
+    font-size: 0.9em; }
+
+.video-js .vjs-time-tooltip,
+.video-js .vjs-mouse-display:after,
+.video-js .vjs-play-progress:after {
+  visibility: hidden;
+  pointer-events: none;
+  position: absolute;
+  top: -3.4em;
+  right: -1.9em;
+  font-size: 0.9em;
+  color: #000;
+  content: attr(data-current-time);
+  padding: 6px 8px 8px 8px;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.8);
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  border-radius: 0.3em; }
+
+.video-js .vjs-time-tooltip,
+.video-js .vjs-play-progress:before,
+.video-js .vjs-play-progress:after {
+  z-index: 1; }
+
+.video-js .vjs-progress-control .vjs-keep-tooltips-inside:after {
+  display: none; }
+
+.video-js .vjs-load-progress {
+  background: #bfc7d3;
+  background: rgba(115, 133, 159, 0.5); }
+
+.video-js .vjs-load-progress div {
+  background: white;
+  background: rgba(115, 133, 159, 0.75); }
+
+.video-js.vjs-no-flex .vjs-progress-control {
+  width: auto; }
+
+.video-js .vjs-time-tooltip {
+  display: inline-block;
+  height: 2.4em;
+  position: relative;
+  float: right;
+  right: -1.9em; }
+
+.vjs-tooltip-progress-bar {
+  visibility: hidden; }
+
+.video-js .vjs-progress-control .vjs-mouse-display {
+  display: none;
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: #000;
+  z-index: 1; }
+
+.vjs-no-flex .vjs-progress-control .vjs-mouse-display {
+  z-index: 0; }
+
+.video-js .vjs-progress-control:hover .vjs-mouse-display {
+  display: block; }
+
+.video-js.vjs-user-inactive .vjs-progress-control .vjs-mouse-display,
+.video-js.vjs-user-inactive .vjs-progress-control .vjs-mouse-display:after {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: visibility 1s, opacity 1s;
+  -moz-transition: visibility 1s, opacity 1s;
+  -o-transition: visibility 1s, opacity 1s;
+  transition: visibility 1s, opacity 1s; }
+
+.video-js.vjs-user-inactive.vjs-no-flex .vjs-progress-control .vjs-mouse-display,
+.video-js.vjs-user-inactive.vjs-no-flex .vjs-progress-control .vjs-mouse-display:after {
+  display: none; }
+
+.vjs-mouse-display .vjs-time-tooltip,
+.video-js .vjs-progress-control .vjs-mouse-display:after {
+  color: #fff;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.8); }
+
+.video-js .vjs-slider {
+  outline: 0;
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+  margin: 0 0.45em 0 0.45em;
+  background-color: #73859f;
+  background-color: rgba(115, 133, 159, 0.5); }
+
+.video-js .vjs-slider:focus {
+  text-shadow: 0em 0em 1em white;
+  -webkit-box-shadow: 0 0 1em #fff;
+  -moz-box-shadow: 0 0 1em #fff;
+  box-shadow: 0 0 1em #fff; }
+
+.video-js .vjs-mute-control,
+.video-js .vjs-volume-menu-button {
+  cursor: pointer;
+  -webkit-box-flex: none;
+  -moz-box-flex: none;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none; }
+
+.video-js .vjs-volume-control {
+  width: 5em;
+  -webkit-box-flex: none;
+  -moz-box-flex: none;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.video-js .vjs-volume-bar {
+  margin: 1.35em 0.45em; }
+
+.vjs-volume-bar.vjs-slider-horizontal {
+  width: 5em;
+  height: 0.3em; }
+
+.vjs-volume-bar.vjs-slider-vertical {
+  width: 0.3em;
+  height: 5em;
+  margin: 1.35em auto; }
+
+.video-js .vjs-volume-level {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #fff; }
+  .video-js .vjs-volume-level:before {
+    position: absolute;
+    font-size: 0.9em; }
+
+.vjs-slider-vertical .vjs-volume-level {
+  width: 0.3em; }
+  .vjs-slider-vertical .vjs-volume-level:before {
+    top: -0.5em;
+    left: -0.3em; }
+
+.vjs-slider-horizontal .vjs-volume-level {
+  height: 0.3em; }
+  .vjs-slider-horizontal .vjs-volume-level:before {
+    top: -0.3em;
+    right: -0.5em; }
+
+.vjs-volume-bar.vjs-slider-vertical .vjs-volume-level {
+  height: 100%; }
+
+.vjs-volume-bar.vjs-slider-horizontal .vjs-volume-level {
+  width: 100%; }
+
+.vjs-menu-button-popup.vjs-volume-menu-button .vjs-menu {
+  display: block;
+  width: 0;
+  height: 0;
+  border-top-color: transparent; }
+
+.vjs-menu-button-popup.vjs-volume-menu-button-vertical .vjs-menu {
+  left: 0.5em;
+  height: 8em; }
+
+.vjs-menu-button-popup.vjs-volume-menu-button-horizontal .vjs-menu {
+  left: -2em; }
+
+.vjs-menu-button-popup.vjs-volume-menu-button .vjs-menu-content {
+  height: 0;
+  width: 0;
+  overflow-x: hidden;
+  overflow-y: hidden; }
+
+.vjs-volume-menu-button-vertical:hover .vjs-menu-content,
+.vjs-volume-menu-button-vertical:focus .vjs-menu-content,
+.vjs-volume-menu-button-vertical.vjs-slider-active .vjs-menu-content,
+.vjs-volume-menu-button-vertical .vjs-lock-showing .vjs-menu-content {
+  height: 8em;
+  width: 2.9em; }
+
+.vjs-volume-menu-button-horizontal:hover .vjs-menu-content,
+.vjs-volume-menu-button-horizontal:focus .vjs-menu-content,
+.vjs-volume-menu-button-horizontal .vjs-slider-active .vjs-menu-content,
+.vjs-volume-menu-button-horizontal .vjs-lock-showing .vjs-menu-content {
+  height: 2.9em;
+  width: 8em; }
+
+.vjs-volume-menu-button.vjs-menu-button-inline .vjs-menu-content {
+  background-color: transparent !important; }
+
+.vjs-poster {
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  background-color: #000000;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%; }
+
+.vjs-poster img {
+  display: block;
+  vertical-align: middle;
+  margin: 0 auto;
+  max-height: 100%;
+  padding: 0;
+  width: 100%; }
+
+.vjs-has-started .vjs-poster {
+  display: none; }
+
+.vjs-audio.vjs-has-started .vjs-poster {
+  display: block; }
+
+.vjs-controls-disabled .vjs-poster {
+  display: none; }
+
+.vjs-using-native-controls .vjs-poster {
+  display: none; }
+
+.video-js .vjs-live-control {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: flex-start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-flex: auto;
+  -moz-box-flex: auto;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  font-size: 1em;
+  line-height: 3em; }
+
+.vjs-no-flex .vjs-live-control {
+  display: table-cell;
+  width: auto;
+  text-align: left; }
+
+.video-js .vjs-time-control {
+  -webkit-box-flex: none;
+  -moz-box-flex: none;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  font-size: 1em;
+  line-height: 3em;
+  min-width: 2em;
+  width: auto;
+  padding-left: 1em;
+  padding-right: 1em; }
+
+.vjs-live .vjs-time-control {
+  display: none; }
+
+.video-js .vjs-current-time,
+.vjs-no-flex .vjs-current-time {
+  display: none; }
+
+.video-js .vjs-duration,
+.vjs-no-flex .vjs-duration {
+  display: none; }
+
+.vjs-time-divider {
+  display: none;
+  line-height: 3em; }
+
+.vjs-live .vjs-time-divider {
+  display: none; }
+
+.video-js .vjs-play-control {
+  cursor: pointer;
+  -webkit-box-flex: none;
+  -moz-box-flex: none;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none; }
+
+.vjs-text-track-display {
+  position: absolute;
+  bottom: 3em;
+  left: 0;
+  right: 0;
+  top: 0;
+  pointer-events: none; }
+
+.video-js.vjs-user-inactive.vjs-playing .vjs-text-track-display {
+  bottom: 1em; }
+
+.video-js .vjs-text-track {
+  font-size: 1.4em;
+  text-align: center;
+  margin-bottom: 0.1em;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.vjs-subtitles {
+  color: #fff; }
+
+.vjs-captions {
+  color: #fc6; }
+
+.vjs-tt-cue {
+  display: block; }
+
+video::-webkit-media-text-track-display {
+  -moz-transform: translateY(-3em);
+  -ms-transform: translateY(-3em);
+  -o-transform: translateY(-3em);
+  -webkit-transform: translateY(-3em);
+  transform: translateY(-3em); }
+
+.video-js.vjs-user-inactive.vjs-playing video::-webkit-media-text-track-display {
+  -moz-transform: translateY(-1.5em);
+  -ms-transform: translateY(-1.5em);
+  -o-transform: translateY(-1.5em);
+  -webkit-transform: translateY(-1.5em);
+  transform: translateY(-1.5em); }
+
+.video-js .vjs-fullscreen-control {
+  cursor: pointer;
+  -webkit-box-flex: none;
+  -moz-box-flex: none;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none; }
+
+.vjs-playback-rate .vjs-playback-rate-value {
+  font-size: 1.5em;
+  line-height: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center; }
+
+.vjs-playback-rate .vjs-menu {
+  width: 4em;
+  left: 0em; }
+
+.vjs-error .vjs-error-display .vjs-modal-dialog-content {
+  font-size: 1.4em;
+  text-align: center; }
+
+.vjs-error .vjs-error-display:before {
+  color: #fff;
+  content: 'X';
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4em;
+  left: 0;
+  line-height: 1;
+  margin-top: -0.5em;
+  position: absolute;
+  text-shadow: 0.05em 0.05em 0.1em #000;
+  text-align: center;
+  top: 50%;
+  vertical-align: middle;
+  width: 100%; }
+
+.vjs-loading-spinner {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  opacity: 0.85;
+  text-align: left;
+  border: 6px solid rgba(43, 51, 63, 0.7);
+  box-sizing: border-box;
+  background-clip: padding-box;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px; }
+
+.vjs-seeking .vjs-loading-spinner,
+.vjs-waiting .vjs-loading-spinner {
+  display: block; }
+
+.vjs-loading-spinner:before,
+.vjs-loading-spinner:after {
+  content: "";
+  position: absolute;
+  margin: -6px;
+  box-sizing: inherit;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  opacity: 1;
+  border: inherit;
+  border-color: transparent;
+  border-top-color: white; }
+
+.vjs-seeking .vjs-loading-spinner:before,
+.vjs-seeking .vjs-loading-spinner:after,
+.vjs-waiting .vjs-loading-spinner:before,
+.vjs-waiting .vjs-loading-spinner:after {
+  -webkit-animation: vjs-spinner-spin 1.1s cubic-bezier(0.6, 0.2, 0, 0.8) infinite, vjs-spinner-fade 1.1s linear infinite;
+  animation: vjs-spinner-spin 1.1s cubic-bezier(0.6, 0.2, 0, 0.8) infinite, vjs-spinner-fade 1.1s linear infinite; }
+
+.vjs-seeking .vjs-loading-spinner:before,
+.vjs-waiting .vjs-loading-spinner:before {
+  border-top-color: white; }
+
+.vjs-seeking .vjs-loading-spinner:after,
+.vjs-waiting .vjs-loading-spinner:after {
+  border-top-color: white;
+  -webkit-animation-delay: 0.44s;
+  animation-delay: 0.44s; }
+
+@keyframes vjs-spinner-spin {
+  100% {
+    transform: rotate(360deg); } }
+
+@-webkit-keyframes vjs-spinner-spin {
+  100% {
+    -webkit-transform: rotate(360deg); } }
+
+@keyframes vjs-spinner-fade {
+  0% {
+    border-top-color: #73859f; }
+  20% {
+    border-top-color: #73859f; }
+  35% {
+    border-top-color: white; }
+  60% {
+    border-top-color: #73859f; }
+  100% {
+    border-top-color: #73859f; } }
+
+@-webkit-keyframes vjs-spinner-fade {
+  0% {
+    border-top-color: #73859f; }
+  20% {
+    border-top-color: #73859f; }
+  35% {
+    border-top-color: white; }
+  60% {
+    border-top-color: #73859f; }
+  100% {
+    border-top-color: #73859f; } }
+
+.vjs-chapters-button .vjs-menu ul {
+  width: 24em; }
+
+.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-custom-control-spacer {
+  -webkit-box-flex: auto;
+  -moz-box-flex: auto;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto; }
+
+.video-js.vjs-layout-tiny:not(.vjs-fullscreen).vjs-no-flex .vjs-custom-control-spacer {
+  width: auto; }
+
+.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-current-time, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-time-divider, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-duration, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-remaining-time,
+.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-playback-rate, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-progress-control,
+.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-mute-control, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-volume-control, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-volume-menu-button,
+.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-chapters-button, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-descriptions-button, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-captions-button,
+.video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-subtitles-button, .video-js.vjs-layout-tiny:not(.vjs-fullscreen) .vjs-audio-button {
+  display: none; }
+
+.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-current-time, .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-time-divider, .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-duration, .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-remaining-time,
+.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-playback-rate,
+.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-mute-control, .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-volume-control, .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-volume-menu-button,
+.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-chapters-button, .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-descriptions-button, .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-captions-button,
+.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-subtitles-button, .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-audio-button {
+  display: none; }
+
+.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-current-time, .video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-time-divider, .video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-duration, .video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-remaining-time,
+.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-playback-rate,
+.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-mute-control, .video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-volume-control,
+.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-chapters-button, .video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-descriptions-button, .video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-captions-button,
+.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-subtitles-button .vjs-audio-button {
+  display: none; }
+
+.vjs-caption-settings {
+  position: relative;
+  top: 1em;
+  background-color: #2B333F;
+  background-color: rgba(43, 51, 63, 0.75);
+  color: #fff;
+  margin: 0 auto;
+  padding: 0.5em;
+  height: 16em;
+  font-size: 12px;
+  width: 40em; }
+
+.vjs-caption-settings .vjs-tracksettings {
+  top: 0;
+  bottom: 1em;
+  left: 0;
+  right: 0;
+  position: absolute;
+  overflow: auto; }
+
+.vjs-caption-settings .vjs-tracksettings-colors,
+.vjs-caption-settings .vjs-tracksettings-font {
+  float: left; }
+
+.vjs-caption-settings .vjs-tracksettings-colors:after,
+.vjs-caption-settings .vjs-tracksettings-font:after,
+.vjs-caption-settings .vjs-tracksettings-controls:after {
+  clear: both; }
+
+.vjs-caption-settings .vjs-tracksettings-controls {
+  position: absolute;
+  bottom: 1em;
+  right: 1em; }
+
+.vjs-caption-settings .vjs-tracksetting {
+  margin: 5px;
+  padding: 3px;
+  min-height: 40px;
+  border: none; }
+
+.vjs-caption-settings .vjs-tracksetting label,
+.vjs-caption-settings .vjs-tracksetting legend {
+  display: block;
+  width: 100px;
+  margin-bottom: 5px; }
+
+.vjs-caption-settings .vjs-tracksetting span {
+  display: inline;
+  margin-left: 5px;
+  vertical-align: top;
+  float: right; }
+
+.vjs-caption-settings .vjs-tracksetting > div {
+  margin-bottom: 5px;
+  min-height: 20px; }
+
+.vjs-caption-settings .vjs-tracksetting > div:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  min-height: 0; }
+
+.vjs-caption-settings label > input {
+  margin-right: 10px; }
+
+.vjs-caption-settings fieldset {
+  margin-top: 1em;
+  margin-left: .5em; }
+
+.vjs-caption-settings fieldset .vjs-label {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  /* for Internet Explorer */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden; }
+
+.vjs-caption-settings input[type="button"] {
+  width: 40px;
+  height: 40px; }
+
+.video-js .vjs-modal-dialog {
+  background: rgba(0, 0, 0, 0.8);
+  background: -webkit-linear-gradient(-90deg, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0)); }
+
+.vjs-modal-dialog .vjs-modal-dialog-content {
+  font-size: 1.2em;
+  line-height: 1.5;
+  padding: 20px 24px;
+  z-index: 1; }
+
+@media print {
+  .video-js > *:not(.vjs-tech):not(.vjs-poster) {
+    visibility: hidden; } }
+</style><style type="text/css" class="bc-style-4yZAvrR5e-default">.bc-player-4yZAvrR5e_default *,.bc-player-4yZAvrR5e_default :after,.bc-player-4yZAvrR5e_default :before{box-sizing:inherit;font-size:inherit;color:inherit;line-height:inherit}.bc-player-4yZAvrR5e_default{width:300px;height:150px}.bc-iframe,.bc-iframe body,.bc-player-4yZAvrR5e_default{background-color:#151B17}.bc-iframe,.bc-iframe .bc-player-4yZAvrR5e_default,.bc-iframe body{margin:0;width:100%;height:100%}.bc-player-4yZAvrR5e_default.vjs-fullscreen,.bc-player-4yZAvrR5e_default.vjs-fullscreen .vjs-tech{width:100%!important;height:100%!important}.bc-player-4yZAvrR5e_default{font-size:14px;overflow:hidden}.bc-player-4yZAvrR5e_default .vjs-control-bar{background-color:rgba(0,0,0,.52);color:#fff}.bc-player-4yZAvrR5e_default .vjs-control{color:inherit}.bc-player-4yZAvrR5e_default .vjs-mouse-display:after,.bc-player-4yZAvrR5e_default .vjs-play-progress:after{border-radius:0}.bc-player-4yZAvrR5e_default .vjs-menu-button-inline:hover,.bc-player-4yZAvrR5e_default.vjs-no-flex .vjs-menu-button-inline{width:8.35em}.bc-player-4yZAvrR5e_default .vjs-volume-menu-button.vjs-volume-menu-button-horizontal:hover .vjs-menu .vjs-menu-content{height:3em;width:6.35em}.bc-player-4yZAvrR5e_default.vjs-ios[muted] .vjs-volume-menu-button{width:4em}.bc-player-4yZAvrR5e_default.vjs-ios[muted] .vjs-volume-menu-button .vjs-menu{display:none}.bc-player-4yZAvrR5e_default .vjs-control:focus:before,.bc-player-4yZAvrR5e_default .vjs-control:hover:before{text-shadow:0 0 1em #fff,0 0 1em #fff,0 0 1em #fff}.bc-player-4yZAvrR5e_default .vjs-spacer{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-box-flex:1 1 auto;-moz-box-flex:1 1 auto;-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto}.bc-player-4yZAvrR5e_default .vjs-time-control{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-box-flex:0 1 auto;-moz-box-flex:0 1 auto;-webkit-flex:0 1 auto;-ms-flex:0 1 auto;flex:0 1 auto;width:auto}.bc-player-4yZAvrR5e_default .vjs-time-control.vjs-time-divider{width:14px}.bc-player-4yZAvrR5e_default .vjs-time-control.vjs-time-divider div{width:100%;text-align:center}.bc-player-4yZAvrR5e_default .vjs-time-control.vjs-current-time{margin-left:1em}.bc-player-4yZAvrR5e_default .vjs-time-control .vjs-current-time-display,.bc-player-4yZAvrR5e_default .vjs-time-control .vjs-duration-display{width:100%}.bc-player-4yZAvrR5e_default .vjs-time-control .vjs-current-time-display{text-align:right}.bc-player-4yZAvrR5e_default .vjs-time-control .vjs-duration-display{text-align:left}.bc-player-4yZAvrR5e_default .vjs-remaining-time{display:none}.bc-player-4yZAvrR5e_default.vjs-no-flex .vjs-time-control{display:table-cell;width:4em}.bc-player-4yZAvrR5e_default.vjs-no-flex .vjs-time-control.vjs-remaining-time{display:none}.bc-player-4yZAvrR5e_default .vjs-play-progress,.bc-player-4yZAvrR5e_default .vjs-volume-level{background-color:#d52484}.bc-player-4yZAvrR5e_default .vjs-play-progress:before,.bc-player-4yZAvrR5e_default .vjs-volume-level:before{display:none}.bc-player-4yZAvrR5e_default .vjs-volume-level:after{display:none}.bc-player-4yZAvrR5e_default .vjs-progress-control{position:absolute;left:0;right:0;width:100%;height:1.5em;top:-1.5em}.bc-player-4yZAvrR5e_default .vjs-progress-control .vjs-load-progress,.bc-player-4yZAvrR5e_default .vjs-progress-control .vjs-play-progress,.bc-player-4yZAvrR5e_default .vjs-progress-control .vjs-progress-holder{height:100%}.bc-player-4yZAvrR5e_default .vjs-progress-control .vjs-progress-holder{margin:0}.bc-player-4yZAvrR5e_default .vjs-progress-control:hover{height:1.5em;top:-1.5em}.bc-player-4yZAvrR5e_default .vjs-progress-control .vjs-play-progress:before{display:none}.bc-player-4yZAvrR5e_default .vjs-control-bar{-webkit-transition:-webkit-transform .1s ease 0s;-moz-transition:-moz-transform .1s ease 0s;-ms-transition:-ms-transform .1s ease 0s;-o-transition:-o-transform .1s ease 0s;transition:transform .1s ease 0s}.bc-player-4yZAvrR5e_default.not-hover.vjs-has-started.vjs-paused.vjs-user-active .vjs-control-bar,.bc-player-4yZAvrR5e_default.not-hover.vjs-has-started.vjs-paused.vjs-user-inactive .vjs-control-bar,.bc-player-4yZAvrR5e_default.not-hover.vjs-has-started.vjs-playing.vjs-user-active .vjs-control-bar,.bc-player-4yZAvrR5e_default.not-hover.vjs-has-started.vjs-playing.vjs-user-inactive .vjs-control-bar,.bc-player-4yZAvrR5e_default.vjs-has-started.vjs-playing.vjs-user-inactive .vjs-control-bar{visibility:visible;opacity:1;-webkit-backface-visibility:hidden;-webkit-transform:translateY(3em);-moz-transform:translateY(3em);-ms-transform:translateY(3em);-o-transform:translateY(3em);transform:translateY(3em);-webkit-transition:-webkit-transform 1s ease 0s;-moz-transition:-moz-transform 1s ease 0s;-ms-transition:-ms-transform 1s ease 0s;-o-transition:-o-transform 1s ease 0s;transition:transform 1s ease 0s}.bc-player-4yZAvrR5e_default.not-hover.vjs-has-started.vjs-paused.vjs-user-active .vjs-progress-control,.bc-player-4yZAvrR5e_default.not-hover.vjs-has-started.vjs-paused.vjs-user-inactive .vjs-progress-control,.bc-player-4yZAvrR5e_default.not-hover.vjs-has-started.vjs-playing.vjs-user-active .vjs-progress-control,.bc-player-4yZAvrR5e_default.not-hover.vjs-has-started.vjs-playing.vjs-user-inactive .vjs-progress-control,.bc-player-4yZAvrR5e_default.vjs-has-started.vjs-playing.vjs-user-inactive .vjs-progress-control{height:.3em;top:-.3em;pointer-events:none;-webkit-transition:height 1s,top 1s;-moz-transition:height 1s,top 1s;-ms-transition:height 1s,top 1s;-o-transition:height 1s,top 1s;transition:height 1s,top 1s}.bc-player-4yZAvrR5e_default.not-hover.vjs-has-started.vjs-paused.vjs-user-active.vjs-fullscreen .vjs-progress-control,.bc-player-4yZAvrR5e_default.not-hover.vjs-has-started.vjs-paused.vjs-user-inactive.vjs-fullscreen .vjs-progress-control,.bc-player-4yZAvrR5e_default.not-hover.vjs-has-started.vjs-playing.vjs-user-active.vjs-fullscreen .vjs-progress-control,.bc-player-4yZAvrR5e_default.not-hover.vjs-has-started.vjs-playing.vjs-user-inactive.vjs-fullscreen .vjs-progress-control,.bc-player-4yZAvrR5e_default.vjs-has-started.vjs-playing.vjs-user-inactive.vjs-fullscreen .vjs-progress-control{opacity:0;-webkit-transition:opacity 1s ease 1s;-moz-transition:opacity 1s ease 1s;-ms-transition:opacity 1s ease 1s;-o-transition:opacity 1s ease 1s;transition:opacity 1s ease 1s}.bc-player-4yZAvrR5e_default.vjs-live .vjs-live-control{margin-left:1em}.bc-player-4yZAvrR5e_default.vjs-live .vjs-time-control.vjs-current-time,.bc-player-4yZAvrR5e_default.vjs-live .vjs-time-control.vjs-duration,.bc-player-4yZAvrR5e_default.vjs-live .vjs-time-control.vjs-time-divider{display:none}.bc-player-4yZAvrR5e_default .vjs-big-play-button{top:50%;left:50%;margin-left:-1em;margin-top:-1em;width:2em;height:2em;line-height:2em;border:none;border-radius:50%;font-size:3.5em;background-color:rgba(0,0,0,.52);color:#fff;-webkit-transition:border-color .4s,outline .4s,background-color .4s;-moz-transition:border-color .4s,outline .4s,background-color .4s;-ms-transition:border-color .4s,outline .4s,background-color .4s;-o-transition:border-color .4s,outline .4s,background-color .4s;transition:border-color .4s,outline .4s,background-color .4s}.bc-player-4yZAvrR5e_default .vjs-big-play-button:active,.bc-player-4yZAvrR5e_default .vjs-big-play-button:focus,.bc-player-4yZAvrR5e_default:active .vjs-big-play-button,.bc-player-4yZAvrR5e_default:hover .vjs-big-play-button{background-color:#d52484}.bc-player-4yZAvrR5e_default .vjs-menu-button-popup .vjs-menu{left:-3em}.bc-player-4yZAvrR5e_default .vjs-menu-button-popup .vjs-menu .vjs-menu-content{background-color:transparent;width:12em;left:-1.5em;padding-bottom:.5em}.bc-player-4yZAvrR5e_default .vjs-menu-button-popup .vjs-menu .vjs-menu-item,.bc-player-4yZAvrR5e_default .vjs-menu-button-popup .vjs-menu .vjs-menu-title{background-color:#151B17;margin:.3em 0;padding:.5em;border-radius:.3em}.bc-player-4yZAvrR5e_default .vjs-menu-button-popup .vjs-menu .vjs-menu-item.vjs-selected{background-color:#d52484}.bc-player-4yZAvrR5e_default .vjs-menu-button-popup .vjs-menu .vjs-menu-item:active,.bc-player-4yZAvrR5e_default .vjs-menu-button-popup .vjs-menu .vjs-menu-item:focus,.bc-player-4yZAvrR5e_default .vjs-menu-button-popup .vjs-menu .vjs-menu-item:hover{text-shadow:0 0 1em #fff,0 0 1em #fff,0 0 1em #fff;color:#fff}.bc-player-4yZAvrR5e_default .vjs-caption-settings{position:absolute;left:50%;margin:0;margin-left:-20em;z-index:1}.bc-player-4yZAvrR5e_default .vjs-caption-settings select{color:#000}.bc-player-4yZAvrR5e_default.vjs-ad-playing .vjs-mouse-display,.bc-player-4yZAvrR5e_default.vjs-ad-playing .vjs-mouse-display:after{display:none}.ie8.bc-player-4yZAvrR5e_default.not-hover.vjs-has-started.vjs-paused.vjs-user-active .vjs-progress-control,.ie8.bc-player-4yZAvrR5e_default.not-hover.vjs-has-started.vjs-paused.vjs-user-inactive .vjs-progress-control,.ie8.bc-player-4yZAvrR5e_default.not-hover.vjs-has-started.vjs-playing.vjs-user-active .vjs-progress-control,.ie8.bc-player-4yZAvrR5e_default.not-hover.vjs-has-started.vjs-playing.vjs-user-inactive .vjs-progress-control,.ie8.bc-player-4yZAvrR5e_default.vjs-has-started.vjs-playing.vjs-user-inactive .vjs-progress-control{height:.5em;top:-.5em}.ie8.bc-player-4yZAvrR5e_default.vjs-has-started.vjs-playing.vjs-user-inactive .vjs-control-bar{display:none}.ie8.bc-player-4yZAvrR5e_default .vjs-control:focus:before,.ie8.bc-player-4yZAvrR5e_default .vjs-control:hover:before{border:2px solid #FFF}.ie8.bc-player-4yZAvrR5e_default .vjs-menu-button-popup .vjs-menu{margin:0}.ie8.bc-player-4yZAvrR5e_default .vjs-menu-button-popup .vjs-menu .vjs-menu-item{margin:0}.ie8.bc-player-4yZAvrR5e_default .vjs-menu-button-popup .vjs-menu .vjs-menu-item:active,.ie8.bc-player-4yZAvrR5e_default .vjs-menu-button-popup .vjs-menu .vjs-menu-item:focus,.ie8.bc-player-4yZAvrR5e_default .vjs-menu-button-popup .vjs-menu .vjs-menu-item:hover{border:2px solid #FFF}.ie8.bc-player-4yZAvrR5e_default .vjs-spacer{display:table-cell}.ie8.bc-player-4yZAvrR5e_default .vjs-time-control{display:table-cell;width:4em}.ie8.bc-player-4yZAvrR5e_default .vjs-remaining-time{display:none}.vjs-mouse.bc-player-4yZAvrR5e_default .vjs-control-bar{font-size:10px}.vjs-mouse.bc-player-4yZAvrR5e_default .vjs-progress-control{height:.5em;top:-.5em}.vjs-mouse.bc-player-4yZAvrR5e_default .vjs-progress-control:hover{height:1.5em;top:-1.5em}.bc-player-4yZAvrR5e_default select{width:inherit}.vjs-error-display{color:#fff;display:none;font-family:Helvetica,Arial,sans serif;font-size:16px;line-height:1.428}.vjs-error .vjs-error-display{display:block;position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5)}.vjs-error .vjs-error-display .vjs-modal-dialog-content{font-size:14px}.vjs-errors-dialog{text-align:left;border:1px #999 solid;overflow:hidden;position:absolute;top:2%;bottom:2%;left:5%;right:5%;padding-left:1%;padding-right:1%;background:rgba(24,24,24,.8);-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000, endColorstr=#CC000000)"}.vjs-errors-details{margin-top:15px}.vjs-errors-message{border:1px #999 solid;background-color:#2c2c2c;overflow:auto;margin-top:15px;padding:15px}.vjs-errors-ok-button-container{display:block;position:absolute;bottom:15px;left:15px;right:15px;text-align:center}.vjs-errors-ok-button{display:block;margin:0 auto;width:80px;height:36px;background-color:#000;border:1px #999 solid;border-radius:5px;color:#999;font-size:14px;cursor:pointer}.vjs-errors-ok-button:hover{border:1px #FFF solid;color:#CCC}.vjs-errors-content-container{overflow:auto;position:absolute;padding-bottom:15px;top:0;left:15px;right:15px;bottom:61px}.vjs-errors-headline{font-size:14px;font-weight:700;padding-right:3em}.vjs-errors-dialog .vjs-control.vjs-close-button{width:3em;height:3em;top:0}.vjs-errors-flashmessage{float:right;font-size:9px;font-style:italic}.vjs-xs.vjs-error-display{font-size:14px;background-color:#000}.vjs-xs.vjs-error-display .vjs-errors-details,.vjs-xs.vjs-error-display .vjs-errors-message{display:none}.vjs-xs .vjs-errors-content-container{top:0}.vjs-xs .vjs-errors-headline{font-size:16px;font-weight:700}.vjs-xs .vjs-errors-dialog{border:none;top:0;bottom:0;left:0;right:0}.vjs-xs.vjs-errors-flashmessage{display:none}@media (max-width:600px),(max-height:250px){.vjs-error-display{font-size:14px;background-color:#000}.vjs-error-display .vjs-errors-details,.vjs-error-display .vjs-errors-message{display:none}.vjs-error-display .vjs-errors-content-container{top:15px}.vjs-error-display .vjs-errors-headline{font-size:16px;font-weight:700}.vjs-error-display .vjs-errors-dialog{border:none;top:0;bottom:0;left:0;right:0}.vjs-errors-flashmessage{display:none}}.vjs-contextmenu-ui-menu{position:absolute}.vjs-contextmenu-ui-menu .vjs-menu-content{background-color:#2B333F;background-color:rgba(43,51,63,.7);border-radius:.3em;padding:.25em}.vjs-contextmenu-ui-menu .vjs-menu-item{border-radius:.3em;cursor:pointer;margin:0 0 1px;padding:.5em 1em;font-size:1em;line-height:1.2;text-transform:none}.vjs-contextmenu-ui-menu .vjs-menu-item:active,.vjs-contextmenu-ui-menu .vjs-menu-item:hover{background-color:rgba(0,0,0,.5);text-shadow:0 0 1em #fff}.vjs-modal-dialog.vjs-player-info-modal{background:rgba(0,0,0,.9);font-size:10px}.vjs-modal-dialog.vjs-player-info-modal .vjs-modal-dialog-content{overflow:auto}.vjs-modal-dialog.vjs-player-info-modal .vjs-pi-section{float:left;width:50%}.vjs-modal-dialog.vjs-player-info-modal .vjs-pi-section.vjs-pi-section--source{float:none;clear:both;width:auto}.vjs-modal-dialog.vjs-player-info-modal .vjs-pi-section.vjs-pi-section--source td:first-child{min-width:150px}.vjs-modal-dialog.vjs-player-info-modal table{border-collapse:collapse;margin-bottom:1em;width:100%}.vjs-modal-dialog.vjs-player-info-modal th{font-weight:400;text-align:left}.vjs-modal-dialog.vjs-player-info-modal td{border-bottom:1px solid rgba(255,255,255,.2);opacity:.5}.vjs-modal-dialog.vjs-player-info-modal tr:last-child td{border-bottom:0}.vjs-modal-dialog.vjs-player-info-modal tr:hover td{opacity:1}</style><link rel="dns-prefetch" href="https://d.monetate.net"><link rel="dns-prefetch" href="https://sb.monetate.net"><script src="http://tags.tiqcdn.com/utag/oppenheimerfunds/main/prod/utag.js" type="text/javascript" async=""></script><script src="http://tags.tiqcdn.com/utag/oppenheimerfunds/main/prod/utag.js" type="text/javascript" async=""></script><script type="text/javascript" async="async" src="https://dpm.demdex.net/id?d_rtbd=json&amp;d_ver=2&amp;d_orgid=oppenheimerfunds%40AdobeOrg&amp;d_mid=37066039072883858692875364369128036273&amp;d_cb=s_c_il%5B2%5D._setAudienceManagerFields"></script><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}.ng-animate-block-transitions{transition:0s all!important;-webkit-transition:0s all!important;}.ng-hide-add-active,.ng-hide-remove{display:block!important;}</style>
+<title>OppenheimerFunds Investment Management - OppenheimerFunds</title>
+<link href="https://www.oppenheimerfunds.com/investors" rel="canonical">
+<link href="http://www.oppenheimerfunds.com/investors/assets/themes/retail-a880b40837c4cd41963608094909ea26.css" media="all" rel="stylesheet">
+<!--[if lte IE 9]>
+<link href="/investors/assets/themes/retail_split2-a9be422c26eebdb95ea126ff632fead6.css" media="all" rel="stylesheet" />
+<link href="/investors/assets/themes/retail_split3-4efc5af7b5b6d1e375ec75ddc841f318.css" media="all" rel="stylesheet" />
+<![endif]-->
+
+
+<script src="http://players.brightcove.net/24488480001/4yZAvrR5e_default/index.min.js"></script><script async="" src="http://www.googletagmanager.com/gtm.js?id=GTM-KW92HH"></script><script type="text/javascript" src="https://se.monetate.net/js/3/a-c9594bdd/p/oppenheimerfunds.com/t1474548922/86586bf108ea12c6/custom.js" charset="utf-8" async=""></script><script>
+  aiPrefetchAttempted = true;
+  window[' '] = window[' '] || {};
+  window[' '].edist_url = "https://www.oppenheimerfunds.com/advisors"
+  window[' '].plan_admin_domain = "https://www.oppenheimerfunds.com"
+</script>
+<script type="text/javascript">
+//<![CDATA[
+window.ofi={};ofi.thread={"applicationScope":"investor","distributionScope":"investor","distributionChannel":"investor-website","userType":"investor","formScope":"investors","urlSafeScope":"investors","otherUserType":"advisor","investorType":null,"advisorType":"U","routingScope":"investors","isVisitorInternal":false,"inRememberedState":false,"rememberMeFlag":false,"rememberMeUsername":null,"moduleScope":"Investors","applicationSubscope":"investor","isUnknownHomepage":false,"isUnknownScope":false,"isKnownScope":true,"isOmnitureThroughTealiumDeployed":false,"experience":"investors","isPlanAdminScope":false,"onPlanAdminChannel":false,"isInternationalScope":false,"onInternationalChannel":false,"isInvestorScope":true,"onInvestorChannel":true,"isAdvisorScope":false,"onAdvisorChannel":false,"isPrivateClientGroupScope":false,"onPrivateClientGroupChannel":false,"isRegisteredInvestmentAdvisorScope":false,"onRegisteredInvestmentAdvisorChannel":false,"isInstitutionalInvestorScope":false,"onInstitutionalInvestorChannel":false,"isAdvisorApiScope":false,"onAdvisorApiChannel":false};ofi.device="desktop";ofi.cookies={"sitePreferenceCookie":"S"};
+//]]>
+</script>
+
+<meta content="telephone=no" name="format-detection">
+<meta content="#bfd916" name="theme-color">
+<meta content="fb:app_id" property="285379401489222">
+<meta content="investment management, OppenheimerFunds" name="keywords"><meta content="OppenheimerFunds Investment Management" name="title" property="og:title"><meta content="Learn about OppenheimerFunds' comprehensive investment management strategies and see why we are one of the most reputable investment management firms in the US." name="description" property="og:description">
+
+<meta content="NO-CACHE" http-equiv="CACHE-CONTROL">
+<meta content="NO-CACHE" http-equiv="PRAGMA">
+<meta content="0" http-equiv="EXPIRES">
+<meta content="authenticity_token" name="csrf-param">
+<meta content="Deir+IQvlYzrNmvLlUb2/mTG7/modMy3GCBfLaNbjN4=" name="csrf-token">
+
+<link href="http://www.oppenheimerfunds.com/investors/assets/apple-icon-57x57-precomposed-8efea19994eb86ebc57fafee60da15d2.png" rel="apple-touch-icon-precomposed">
+<link href="http://www.oppenheimerfunds.com/investors/assets/apple-icon-57x57-precomposed-8efea19994eb86ebc57fafee60da15d2.png" rel="apple-touch-icon-precomposed" sizes="57x57">
+<link href="http://www.oppenheimerfunds.com/investors/assets/apple-icon-72x72-precomposed-3fbf8f2191f79ba1e48edbc52c706867.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+<link href="http://www.oppenheimerfunds.com/investors/assets/apple-icon-114x114-precomposed-9837609ebe8acfc47160b186310369d7.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+<link href="http://www.oppenheimerfunds.com/investors/assets/apple-icon-114x114-precomposed-9837609ebe8acfc47160b186310369d7.png" rel="icon">
+<script>
+  var loadMonetate = true
+    ;
+  ofi = window.ofi || {};
+  ofi.flags = {
+      logging : "false",
+      test_env: "false"
+  };
+</script>
+<script>
+  var monetateT = new Date().getTime();
+  (function() {
+    var p = document.location.protocol;
+  
+    if (p == "http:" || p == "https:") {
+      var m = document.createElement("script"); m.type = "text/javascript"; m.src = (p == "https:" ? "https://s" : "http://") + "e.monetate.net/js/2/a-c9594bdd/p/oppenheimerfunds.com/entry.js";
+      var e = document.createElement("div"); e.appendChild(m); document.write(e.innerHTML);
+    }
+  })();
+</script><script type="text/javascript" src="https://se.monetate.net/js/2/a-c9594bdd/p/oppenheimerfunds.com/entry.js"></script>
+
+
+<meta class="foundation-data-attribute-namespace"><meta class="foundation-mq-xxlarge"><meta class="foundation-mq-xlarge"><meta class="foundation-mq-large"><meta class="foundation-mq-medium"><meta class="foundation-mq-small"><style></style><meta class="foundation-mq-topbar"><script type="text/javascript" src="https://d.monetate.net/trk/4/s/a-c9594bdd/p/oppenheimerfunds.com/363160282-0?mr=t1474548922&amp;mi='2.644424477.1477316388624'&amp;mt=!n&amp;cs=!t&amp;e=!(viewPage,gt)&amp;pt=main&amp;r=''&amp;sw=1536&amp;sh=960&amp;sc=24&amp;j=!f&amp;tg=!(!(20721,'1067418792'))&amp;u='https://www.oppenheimerfunds.com/investors'&amp;fl=!t&amp;hvc=!t&amp;eoq=!t" charset="utf-8" async=""></script><script type="text/javascript" src="https://d.monetate.net/trk/4/s/a-c9594bdd/p/oppenheimerfunds.com/363160282-1?mr=t1474548922&amp;mi='2.644424477.1477316388624'&amp;mt=!n&amp;cs=!t&amp;e=!(viewPage,gt)&amp;pt=unknown&amp;cv=(advisors_insights_for_you:true,test:alex)&amp;r=''&amp;sw=1536&amp;sh=960&amp;sc=24&amp;j=!f&amp;tg=!(!(20721,'1067418792'))&amp;u='https://www.oppenheimerfunds.com/investors'&amp;fl=!t&amp;hvc=!t&amp;eoq=!t" charset="utf-8" async=""></script><script type="text/javascript" async="" charset="utf-8" src="http://tags.tiqcdn.com/utag/oppenheimerfunds/main/prod/utag.105.js?utv=201601211214" id="utag_oppenheimerfunds.main_105"></script><script type="text/javascript" async="" charset="utf-8" src="http://tags.tiqcdn.com/utag/oppenheimerfunds/main/prod/utag.166.js?utv=201611032000" id="utag_oppenheimerfunds.main_166"></script><script type="text/javascript" async="" charset="utf-8" src="http://tags.tiqcdn.com/utag/oppenheimerfunds/main/prod/utag.33.js?utv=201510281434" id="utag_oppenheimerfunds.main_33"></script><style type="text/css">#oo_company_logo img { max-height: 100%; max-width: 100%; height: auto; width: auto9; /* ie8 */ }
+#oo_feedback_fl_spacer { display: block; height: 1px; position: absolute; top: 0; width: 100px; }
+.oo_feedback_float { width: 100px; height: 50px; overflow: hidden; font: 12px Tahoma, Arial, Helvetica, sans-serif; text-align: center; color: #252525; cursor: pointer; z-index: 999997; position: fixed; bottom: 5px; border: 1px solid #cccccc; border-radius: 9px; -moz-border-radius: 9px; -webkit-border-radius: 9px; right: 10px; -webkit-transition: -webkit-transform 0.3s ease; }
+.oo_feedback_float .screen_reader { position: absolute; clip: rect(1px 1px 1px 1px); /* for Internet Explorer */ clip: rect(1px, 1px, 1px, 1px); padding: 0; border: 0; height: 1px; width: 1px; overflow: hidden; }
+.oo_feedback_float .olUp { width: 100%; height: 100%; background: url("http://www.oppenheimerfunds.com/onlineopinionV5/oo_float_icon.gif") center 10px no-repeat; text-align: center; padding: 31px 0 5px 0; position: relative; z-index: 2; filter: alpha(opacity=100); opacity: 1; transition: opacity .5s; -moz-transition: opacity .5s; -webkit-transition: opacity .5s; -o-transition: opacity .5s; }
+.oo_feedback_float .olUp img { margin-bottom: 5px; }
+.oo_feedback_float .oo_transparent { display: block; background: white; position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 1; opacity: 0.8; filter: alpha(opacity=80); border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; }
+.oo_feedback_float:hover .oo_transparent { opacity: 1.0; filter: alpha(opacity=100); }
+.oo_feedback_float:hover .olUp { display: block; opacity: 0; filter: alpha(opacity=0); }
+.oo_feedback_float .fbText { display: block; }
+.oo_feedback_float .olOver { display: block; height: 100%; width: 100%; position: absolute; top: 0; left: 0; min-height: 50px; z-index: 2; opacity: 0; filter: alpha(opacity=0); transition: opacity .5s; -moz-transition: opacity .5s; -webkit-transition: opacity .5s; -o-transition: opacity .5s; }
+.oo_feedback_float .olOver span { display: block; padding: 10px 5px; }
+.oo_feedback_float:hover .olOver { opacity: 1.0; filter: alpha(opacity=100); top: 0; }
+.oo_cc_wrapper { left: 0; padding: 0; position: fixed; text-align: center; top: 25px; width: 100%; z-index: 999999; }
+.oo_cc_wrapper .screen_reader { position: absolute; clip: rect(1px 1px 1px 1px); /* for Internet Explorer */ clip: rect(1px, 1px, 1px, 1px); padding: 0; border: 0; height: 1px; width: 1px; overflow: hidden; }
+.oo_cc_wrapper span { width: 100%; height: 100%; position: absolute; left: 0; top: 0; z-index: 1; }
+.oo_cc_wrapper .iwrapper { background-color: white; margin: 0 auto; position: relative; width: 535px; z-index: 2; box-shadow: 0px 1px 3px 0px rgba(102, 102, 102, 0.3); -moz-box-shadow: 0px 1px 3px 0px rgba(102, 102, 102, 0.3); -webkit-box-shadow: 0px 1px 3px 0px rgba(102, 102, 102, 0.3); }
+.oo_cc_wrapper iframe { position: relative; border: none; width: 100%; z-index: 4; }
+.oo_cc_wrapper .oo_cc_close { position: absolute; display: block; right: 20px; top: 5px; font: 1em/1.5em 'HelveticaNeue-Medium', Helvetica, Arial, sans-serif; text-align: center; z-index: 5; color: black; text-decoration: none; cursor: pointer; }
+#oo_bar { padding: 10px 35px; cursor: pointer; color: white; border-top: 1px solid white; background-color: black; bottom: 0; display: block; font: 16px 'HelveticaNeue-Medium', Helvetica, Arial, sans-serif; left: 0; text-decoration: none; line-height: 16px; position: fixed; text-align: left; width: 100%; z-index: 999997; box-shadow: rgba(0, 0, 0, 0.5) 0px -1px 2px; -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px -1px 2px; -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px -1px 2px; }
+#oo_bar span.icon { background-image: url(http://www.oppenheimerfunds.com/onlineopinionV5/oo_bar_icon.gif); background-repeat: no-repeat; position: absolute; left: 8px; top: 9px; width: 19px; height: 17px; }
+#oo_bar .screen_reader { position: absolute; clip: rect(1px 1px 1px 1px); /* for Internet Explorer */ clip: rect(1px, 1px, 1px, 1px); padding: 0; border: 0; height: 1px; width: 1px; overflow: hidden; }
+#oo_bar:focus { outline: 3px solid #51ace9; }
+.oo_bar { padding-bottom: 37px; }
+#oo_tab { background-color: #ffffff; border: 1px solid #cccccc; display: block; position: fixed; top: 40%; padding: 55px 0px 55px 0px; width: 35px; z-index: 999995; cursor: pointer; }
+#oo_tab span { bottom: 15px; display: block; background: url(http://www.oppenheimerfunds.com/onlineopinionV5/oo_tab_icon.gif) no-repeat; height: 9px; position: absolute; width: 9px; }
+#oo_tab div { background-image: url(http://www.oppenheimerfunds.com/onlineopinionV5/oo_tab.png); background-repeat: no-repeat; position: absolute; display: block; height: 100%; left: 0; top: 0; width: 100%; }
+#oo_tab.wcag a { background: url(http://www.oppenheimerfunds.com/onlineopinionV5/oo_tab_icon.gif) no-repeat; background-repeat: no-repeat; background-position: center bottom; border: none; outline: none; position: absolute; display: block; bottom: 14px; left: -6px; top: 0; width: 100%; }
+#oo_tab.wcag img { border: none; outline: none; display: block; position: absolute; left: -6px; top: -10px; }
+#oo_tab .screen_reader { position: absolute; clip: rect(1px 1px 1px 1px); /* for Internet Explorer */ clip: rect(1px, 1px, 1px, 1px); padding: 0; border: 0; height: 1px; width: 1px; overflow: hidden; }
+.oo_tab_left { left: -13px; border-radius: 0px 9px 9px 0px; -moz-border-radius: 0px 9px 9px 0px; -webkit-border-radius: 0px 9px 9px 0px; transition: left .5s; -moz-transition: left .5s; -webkit-transition: left .5s; -o-transition: left .5s; background-image: -webkit-gradient(linear, 0% 100%, 0% 0%, from(#eeeeee), to(#ffffff)); background-image: -webkit-linear-gradient(left, #eeeeee, #ffffff); background-image: -moz-linear-gradient(left, #eeeeee, #ffffff); background-image: -ms-linear-gradient(left, #eeeeee, #ffffff); background-image: -o-linear-gradient(left, #eeeeee, #ffffff); background-image: linear-gradient(left, #eeeeee, #ffffff); }
+.oo_tab_left span { right: 6px; }
+.oo_tab_left div { background-position: 6px -10px; }
+.oo_tab_left:hover { left: -5px; }
+.oo_tab_right { right: -13px; border-radius: 9px 0px 0px 9px; -moz-border-radius: 9px 0px 0px 9px; -webkit-border-radius: 9px 0px 0px 9px; transition: right .5s; -moz-transition: right .5s; -webkit-transition: right .5s; -o-transition: right .5s; background-image: -webkit-gradient(linear, 0% 100%, 0% 0%, from(#ffffff), to(#eeeeee)); background-image: -webkit-linear-gradient(left, #ffffff, #eeeeee); background-image: -moz-linear-gradient(left, #ffffff, #eeeeee); background-image: -ms-linear-gradient(left, #ffffff, #eeeeee); background-image: -o-linear-gradient(left, #ffffff, #eeeeee); background-image: linear-gradient(left, #ffffff, #eeeeee); }
+.oo_tab_right span { left: 7px; }
+.oo_tab_right div { background-position: -6px -10px; }
+.oo_tab_right:hover { right: -5px; }
+#oo_tab_1 { background-color: black; border: 1px solid #ffffff; display: block; position: fixed; top: 40%; padding: 10px 0px 10px 0px; width: 124px; z-index: 999995; cursor: pointer; text-decoration: none; text-align: left; font-family: 'HelveticaNeue-Medium', Helvetica, Arial, sans-serif; line-height: 16px; font-size: 16px; color: #fff; }
+#oo_tab_1:focus { outline: 3px solid #51ace9; }
+#oo_tab_1 span.screen_reader { position: absolute; clip: rect(1px 1px 1px 1px); /* for Internet Explorer */ clip: rect(1px, 1px, 1px, 1px); padding: 0; border: 0; height: 1px; width: 1px; overflow: hidden; }
+#oo_tab_1.oo_tab_right_1 { right: -9px; transition: right 1.5s; -moz-transition: right 1.5s; -webkit-transition: right 1.5s; padding: 10px 0px 10px 35px; box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 2px; -moz-box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 2px; -webkit-box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 2px; width: 89px; }
+#oo_tab_1.oo_tab_right_1 span.icon { background-image: url(http://www.oppenheimerfunds.com/onlineopinionV5/oo_tab_icon_1.gif); background-repeat: no-repeat; position: absolute; left: 8px; top: 9px; width: 19px; height: 17px; }
+#oo_tab_1.oo_tab_right_1.small { right: -90px; }
+#oo_tab_1.oo_tab_right_1.small:hover { right: -9px; }
+#oo_tab_1.oo_tab_left_1 { left: -9px; transition: left 1.5s; -moz-transition: left 1.5s; -webkit-transition: left 1.5s; padding: 10px 0px 10px 15px; box-shadow: rgba(0, 0, 0, 0.5) -1px 1px 2px; -moz-box-shadow: rgba(0, 0, 0, 0.5) -1px 1px 2px; -webkit-box-shadow: rgba(0, 0, 0, 0.5) -1px 1px 2px; width: 109px; }
+#oo_tab_1.oo_tab_left_1 span.icon { background-image: url(http://www.oppenheimerfunds.com/onlineopinionV5/oo_tab_icon_1.gif); background-repeat: no-repeat; position: absolute; right: 8px; top: 9px; width: 19px; height: 17px; }
+#oo_tab_1.oo_tab_left_1.small { left: -90px; }
+#oo_tab_1.oo_tab_left_1.small:hover { left: -9px; }
+#oo_container { position: fixed; height: 100%; width: 100%; top: 0; left: 0; z-index: 999999; }
+#oo_invitation_prompt { background: #fff; box-shadow: 0px 1px 3px 0px rgba(102, 102, 102, 0.3); -moz-box-shadow: 0px 1px 3px 0px rgba(102, 102, 102, 0.3); -webkit-box-shadow: 0px 1px 3px 0px rgba(102, 102, 102, 0.3); margin: 5% auto; text-align: left; position: relative; width: 500px; z-index: 999999; }
+#oo_invitation_prompt #oo_company_logo { width: 100%; height: 90px; background: black; }
+#oo_invitation_prompt #oo_company_logo img { height: 100%; margin-left: 21%; -webkit-transform: scale(1.4); transform: scale(1.4); }
+#oo_invitation_prompt #oo_invite_content { width: auto; padding: 40px 10% 20px 10%; box-shadow: inset 0px 0px 0px 1px #ccc; -webkit-box-shadow: inset 0px 0px 0px 1px #ccc; -moz-box-shadow: inset 0px 0px 0px 1px #ccc; }
+#oo_invitation_prompt #oo_invite_content p { color: black; font: 0.85em 'HelveticaNeue-Medium', Helvetica, Arial, sans-serif; margin: 0; padding: 0 0 20px 0; }
+#oo_invitation_prompt #oo_invite_content p.prompt_button a { text-align: center; color: white; text-decoration: none; font-size: 1.5em; line-height: 1.2em; padding: 12px 0 13px 0; display: block; height: auto; }
+#oo_invitation_prompt #oo_invite_content h2 { text-align: left !important; }
+#oo_invitation_prompt #oo_invite_content a { cursor: pointer; }
+#oo_invitation_prompt #oo_invite_content a:focus { outline: 3px solid #51ace9; }
+#oo_invitation_prompt #oo_invite_content a#oo_launch_prompt { background: #000; }
+#oo_invitation_prompt #oo_invite_content a#oo_launch_prompt:focus { outline: 0; }
+#oo_invitation_prompt #oo_invite_content a#oo_no_thanks { background: #B0B3B6; }
+#oo_invitation_prompt #oo_invite_content #ol_brand_logo { text-align: center; border-top: 1px solid #ccc; line-height: 1.5em; margin: 20px 0 0 0; padding: 20px 0 0 0; }
+#oo_invitation_prompt #oo_invite_content #ol_brand_logo img { height: 25px; width: 146px; border: 0px; }
+#oo_invitation_prompt #oo_invite_content #ol_brand_logo a { display: block; height: 25px; }
+#oo_invitation_prompt #oo_close_prompt { position: absolute; display: block; right: 13px; top: 13px; line-height: 0; font-size: 2em; -webkit-transform: scale(1.25); transform: scale(1.25); color: white; text-decoration: none; }
+#oo_invitation_prompt #oo_close_prompt:focus { outline: none; }
+#oo_invitation_prompt #oo_close_prompt:focus span { outline: 3px solid #51ace9; }
+#oo_invitation_prompt .screen_reader { position: absolute; clip: rect(1px 1px 1px 1px); /* for Internet Explorer */ clip: rect(1px, 1px, 1px, 1px); padding: 0; border: 0; height: 1px; width: 1px; overflow: hidden; }
+@media only screen and (max-device-width: 480px), screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) { #oo_invitation_prompt { width: 90%; } #oo_invitation_prompt #oo_company_logo { height: 80px; } }
+@media only screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2), screen and (device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2) { #oo_invitation_prompt { width: 90%; height: 90%; overflow-y: scroll; overflow-x: hidden; } #oo_invitation_prompt #oo_company_logo { height: 80px; } #oo_invitation_prompt #oo_invite_content { padding: 20px 10% 20px 10%; } #oo_invitation_prompt #oo_invite_content #ol_brand_logo { margin: 0 0 0 0; } }
+@media screen and (device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2) { #oo_invitation_prompt #oo_close_prompt { right: -70px; } }
+#oo_waypoint_container { position: fixed; height: 100%; width: 100%; top: 0; left: 0; z-index: 999999; }
+#oo_waypoint_prompt { background: #fff; box-shadow: 0px 1px 3px 0px rgba(102, 102, 102, 0.3); -moz-box-shadow: 0px 1px 3px 0px rgba(102, 102, 102, 0.3); -webkit-box-shadow: 0px 1px 3px 0px rgba(102, 102, 102, 0.3); margin: 5% auto; text-align: left; position: relative; width: 500px; z-index: 999999; }
+#oo_waypoint_prompt #oo_company_logo { width: 100%; height: 120px; background: black; }
+#oo_waypoint_prompt #oo_company_logo img { height: 100%; }
+#oo_waypoint_prompt #oo_waypoint_content { width: 80%; padding: 30px 10% 20px 10%; box-shadow: inset 0px 0px 0px 1px #ccc; -webkit-box-shadow: inset 0px 0px 0px 1px #ccc; -moz-box-shadow: inset 0px 0px 0px 1px #ccc; }
+#oo_waypoint_prompt #oo_waypoint_content a { cursor: pointer; }
+#oo_waypoint_prompt #oo_waypoint_content a:focus { outline: 3px solid #51ace9; }
+#oo_waypoint_prompt #oo_waypoint_content p { color: black; font: 1em/1.5em 'HelveticaNeue-Medium', Helvetica, Arial, sans-serif; margin: 0; padding: 0 0 20px 0; text-align: center; }
+#oo_waypoint_prompt #oo_waypoint_content p#oo_waypoint_message { font-size: 1.2em; }
+#oo_waypoint_prompt #oo_waypoint_content a.waypoint_icon { cursor: pointer; text-decoration: none; font-size: 1.5em; line-height: 1.2em; padding: 12px 0 13px 0; display: block; height: 25px; color: white; margin-bottom: 20px; background-color: #cb352d; text-align: center; }
+#oo_waypoint_prompt #oo_waypoint_content a.waypoint_icon.last { margin-bottom: 0; }
+#oo_waypoint_prompt #oo_waypoint_content #ol_brand_logo { border-top: 1px solid #ccc; line-height: 1.5em; margin: 10px 0 0 0; padding: 20px 0 0 0; }
+#oo_waypoint_prompt #oo_waypoint_content #ol_brand_logo img { height: 25px; width: 146px; border: 0px; }
+#oo_waypoint_prompt #oo_waypoint_content #ol_brand_logo a { display: block; height: 25px; }
+#oo_waypoint_prompt #oo_close_prompt { position: absolute; display: block; right: 13px; top: 13px; line-height: 1em; font-size: 1em; color: white; text-decoration: none; }
+#oo_waypoint_prompt #oo_close_prompt:focus { outline: none; }
+#oo_waypoint_prompt #oo_close_prompt:focus span { outline: 3px solid #51ace9; }
+#oo_waypoint_prompt .screen_reader { position: absolute; clip: rect(1px 1px 1px 1px); /* for Internet Explorer */ clip: rect(1px, 1px, 1px, 1px); padding: 0; border: 0; height: 1px; width: 1px; overflow: hidden; }
+@media only screen and (max-device-width: 480px), screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) { #oo_waypoint_prompt { width: 90%; } #oo_waypoint_prompt #oo_company_logo { height: 80px; } }
+@media only screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2), screen and (device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2) { #oo_waypoint_prompt { width: 90%; height: 90%; overflow-y: scroll; overflow-x: hidden; } #oo_waypoint_prompt #oo_company_logo { height: 80px; } #oo_waypoint_prompt #oo_waypoint_content { padding: 20px 10% 20px 10%; } #oo_waypoint_prompt #oo_waypoint_content #ol_brand_logo { margin: 0 0 0 0; } }
+@media screen and (device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2) { #oo_waypoint_prompt #oo_close_prompt { right: -70px; } }
+#oo_overlay, #oo_invitation_overlay, #oo_waypoint_overlay { background: white url(http://www.oppenheimerfunds.com/onlineopinionV5/oo_loading.gif) 50% 80px no-repeat; display: block; height: 1000%; left: 0; position: fixed; top: 0; width: 100%; z-index: 999998; opacity: 0.5; filter: alpha(opacity=50); }
+#oo_overlay.no_loading, #oo_invitation_overlay.no_loading, #oo_waypoint_overlay.no_loading { background: white; opacity: 0.5; filter: alpha(opacity=50); }
+@media print { #oo_bar, .oo_feedback_float, #oo_tab { display: none; } }</style><script type="text/javascript" async="" charset="utf-8" src="http://tags.tiqcdn.com/utag/tiqapp/utag.v.js?a=oppenheimerfunds/main/201611071514&amp;cb=1479143958501" id="tiqapp"></script><script type="text/javascript" async="" charset="utf-8" src="http://visitor-service-us-east-1.tealiumiq.com/oppenheimerfunds/main/01580774839d0053eee5601c15fc0506c0021064009d8?callback=utag.ut%5B%22writevamain%22%5D&amp;rnd=1479143958722" id="tealium_visitor_service_33main"></script><script type="text/javascript" async="" charset="utf-8" src="http://visitor-service-us-east-1.tealiumiq.com/oppenheimerfunds/main/01580774839d0053eee5601c15fc0506c0021064009d8?callback=utag.ut%5B%22writevamain%22%5D&amp;rnd=1479143959550" id="tealium_visitor_service_33main"></script>
+<script src="https://oppenheimerfunds.appiancloud.com/suite/tempo/tempo.nocache.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+  function showTask(taskId) {
+    $("#tasks").empty();
+    $('<appian-task />').attr("taskId", taskId).on("submit", handleSubmit).appendTo("#tasks");
+  }
+
+  function handleSubmit() {
+    $("#tasks").empty();
+    showTaskList();
+  }
+
+  function showTaskList() {
+    $.ajax({
+      type: 'GET',
+      url: "https://oppenheimerfunds.appiancloud.com/suite/plugins/servlet/tasklist",
+      dataType:"json",
+      contentType: 'application/json',
+      xhrFields: {
+        withCredentials: true
+      }
+    })
+    .done(function(data) {
+      $("<h1>").text("Appian Tasks").appendTo("#tasks");
+      $.each(data, function(i, item) {
+        $("<a>").attr("href", "#")
+        .text(item.DisplayName + "  [Assigned: " + new Date(Date.parse(item.AssignedTime)).toISOString().substring(0, 10)+"]")
+        .click(function() { showTask(item.Id); })
+        .appendTo("#tasks");
+        $("<br>").appendTo("#tasks");
+      });
+    });
+  }
+</script>
+</head>
+
+<!--
+NEW SECTION
+-->
+
+<div class="mega-search-openable" data-behavior="openable">
+<div class="medium-12 columns" data-behavior="reset-form" data-target="#mega_menu_global_search_form">
+<div class="mega-search-overlay" data-behavior="closer" data-target=".mega-search-openable"></div>
+</div>
+<div class="mega-search-box-container">
+<div class="mega-search-box">
+<div class="mega-search-header">
+<a class="logo " data-linksrc="GHOL" href="/investors">OppenheimerFunds.com</a>
+<div class="close-search" data-behavior="reset-form" data-target="#mega_menu_global_search_form">
+<div data-behavior="closer" data-target=".mega-search-openable">×</div>
+</div>
+</div>
+<div class="mega-input">
+<form accept-charset="UTF-8" action="/investors/search.json" autocomplete="off" data-behavior="resetable auto-submit remote-form" data-enter-path="/investors/search" data-target="#megasearch-global-search-results" id="mega_menu_global_search_form" method="get"><div style="display:none"><input name="utf8" type="hidden" value="✓"></div>
+<input class="search-control" data-behavior="shift-focus" data-target=".search-result-list" id="search_autocomplete" name="q" placeholder="Search" tabindex="0" type="search">
+<input id="from" name="from" type="hidden" value="0"><input id="size" name="size" type="hidden" value="5"><input id="json" name="json" type="hidden" value="true">
+<input class="submit_global_search" name="commit" style="display: none;" type="submit" value="invisible submit">
+</form>
+
+</div>
+</div>
+<div class="mega-search-results">
+<div data-behavior="ajax-content-container openable clear-html" data-categories-empty-html="" data-categories-template="<li><a class='quick-link' href='{link}'>{label}</a></li>" data-links-empty-html="" data-links-template="<li><a class='quick-link' href='{link}'>{label}</a></li>" data-template="<div class='search-result-list' data-behavior='focus-list'><ul class='mega-search-category-results'>{categoriesHtml}</ul><ul class='mega-search-link-results'>{linksHtml}</ul></div>" id="megasearch-global-search-results"></div>
+</div>
+</div>
+</div>
+
+<!--
+NEW SECTION
+-->
+
+<div class="hide spoof-bar">
+<div class="row">
+<div class="small-12 medium-8 columns">
+<form accept-charset="UTF-8" action="#" class="simple_form new_internal_user" id="new_internal_user" method="post" novalidate="novalidate"><div style="display:none"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="Deir+IQvlYzrNmvLlUb2/mTG7/modMy3GCBfLaNbjN4="></div><div class="row">
+<div class="medium-2 columns">
+<h4>
+Spoof Access
+</h4>
+</div>
+<div class="medium-3 columns">
+<div class="input string required internal_user_username"><input class="string required" id="internal_user_username" name="internal_user[username]" placeholder="Enter User ID" type="text"></div>
+</div>
+<div class="medium-4 columns">
+<div class="input password optional internal_user_password"><input class="password optional" id="internal_user_password" name="internal_user[password]" placeholder="Enter Password" type="password"></div>
+</div>
+<div class="medium-2 columns end">
+<input class="button" data-disable-with="logging in..." id="internal_user_login" name="commit" type="submit" value="LOGIN">
+</div>
+</div>
+</form>
+
+
+</div>
+<div class="small-12 medium-4 columns">
+<div class="row">
+<div class="small-6 medium-4 columns">
+<a href="http://lg/lg" target="_blank">Investor Admin</a>
+</div>
+<div class="small-6 medium-4 columns">
+<a href="http://www.oppenheimerfunds.com/advisors/tsr_admin">Advisor Admin</a>
+</div>
+</div>
+</div>
+<a class="close-spoof" href="#">×</a>
+</div>
+</div>
+
+
+
+<!--
+NEW SECTION
+-->
+
+<div class="off-canvas-wrap" data-offcanvas="">
+<div class="inner-wrap">
+<header data-section-name="Header" data-section-number="0">
+<div class="header hide-for-print open">
+<div class="row">
+<a class="logo track-it" data-linksrc="GHOL" href="http://investors">OppenheimerFunds.com</a>
+<div class="channel-selector legacy" data-behavior="mega-menu" data-name="Channel Selector" data-open-on="click">
+<div class="menu-trigger">
+<div class="channel-selector-trigger">
+<div class="audience">
+Individual Investor
+</div>
+</div>
+</div>
+<div class="menu-body" style="left: 0px;">
+<div class="channel-selector-body">
+<ul>
+<li><a href="http://www.oppenheimerfunds.com/advisors" class="track-it">Financial Advisor</a></li><li><a href="http://www.oppenheimerfunds.com/private-client-groups" class="track-it">Private Client Group</a></li><li><a href="http://www.oppenheimerfunds.com/registered-investment-advisors" class="track-it">Registered Investment Advisor</a></li><li><a href="http://www.ofiglobal.com/institutional-investors" class="track-it">Institutional Investor</a></li><li><a href="http://www.oppenheimerfunds.com/planAdmin" class="track-it">OFI Retirement Plan Sponsors</a></li>
+</ul>
+</div>
+</div>
+<div class="menu-caret" style="left: 66.5px;"></div>
+</div>
+
+
+<nav class="secondary-nav">
+<div class="nav-item">
+<a class="nav-text track-it" data-linksrc="GHLG" href="http://www.oppenheimerfunds.com/investors/login" data-content-number="1" data-section-name="Utility Header">Log In</a>
+</div>
+</nav>
+
+</div>
+<div class="row">
+<nav class="primary-nav">
+<div class="nav-item">
+<a class="menu-trigger nav-text track-it" href="http://www.oppenheimerfunds.com/investors/portfolio_summary/portfolio">My Portfolio</a>
+</div>
+<div class="nav-item hover-open" data-behavior="mega-menu" data-name="Products">
+<a class="menu-trigger nav-text track-it" href="http://www.oppenheimerfunds.com/investors/funds">Products</a>
+<div class="menu-body" style="left: 0px;">
+<div class="header-menu-modal" id="megamenuInvestorsProducts">
+<div class="medium-12 columns">
+<div class="header-title">
+<h4>
+Products
+</h4>
+</div>
+<ul>
+<li>
+<a href="http://www.oppenheimerfunds.com/investors/funds/etf" class="track-it">ETFs</a>
+</li>
+<li>
+<a href="http://www.oppenheimerfunds.com/investors/funds/mutual" class="track-it">Mutual Funds</a>
+</li>
+<li>
+<a href="http://www.oppenheimerfunds.com/investors/funds" class="track-it">View All</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="menu-caret" style="left: 37px;"></div>
+</div>
+<div class="nav-item">
+<a class="nav-text track-it" href="http://www.oppenheimerfunds.com/investors/landing/retirement-planning">Retirement</a>
+</div>
+<div class="nav-item">
+<a class="nav-text track-it" href="http://www.oppenheimerfunds.com/investors/landing/college-savings">College/529</a>
+</div>
+<div class="nav-item hover-open" data-behavior="mega-menu" data-name="Insights">
+<a class="menu-trigger nav-text track-it" href="http://www.oppenheimerfunds.com/investors/insights">Insights</a>
+<div class="menu-body" style="left: 0px;">
+<div class="header-menu-modal" id="megamenuInsights">
+<div class="medium-12 columns">
+<div class="header-title">
+<h4>
+Insights
+</h4>
+</div>
+<ul>
+<li>
+<a href="http://www.oppenheimerfunds.com/investors/insights" class="track-it">Market &amp; Asset Class</a>
+</li>
+<li>
+<a href="http://www.oppenheimerfunds.com/investors/election-2016" class="track-it">Election 2016</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="menu-caret" style="left: 33px;"></div>
+</div>
+<div class="nav-item">
+<a class="nav-text track-it" href="http://www.oppenheimerfunds.com/investors/literature-center">Forms</a>
+</div>
+<div class="nav-item">
+<a alt="About OppenheimerFunds" class="nav-text track-it" data-linksrc="GHAB" href="http://www.oppenheimerfunds.com/investors/about-oppenheimerfunds">About Us</a>
+</div>
+
+</nav>
+
+</div>
+</div>
+<!-- * Small Devices: Nav */ -->
+<div class="small-header">
+<a class="logo-small  track-it" href="http://www.oppenheimerfunds.com/investors">Oppenheimer Funds</a>
+<section class="right-small hamburger">
+<div class="right-off-canvas-toggle">
+<span class="hamburger-bun hamburger-bun--top"></span>
+<span class="hamburger-patty"></span>
+<span class="hamburger-bun hamburger-bun--btm"></span>
+</div>
+</section>
+
+</div>
+<!-- * Small Devices: Off Canvas Menu */ -->
+<aside class="right-off-canvas-menu show-for-small-only hide-for-print" data-section-name="Mobile Menu">
+<div class="row close-row">
+<a class="small-12 columns logo-small  track-it" href="http://www.oppenheimerfunds.com/investors">Oppenheimer Funds</a>
+</div>
+<ul class="off-canvas-list">
+<li class="search-row" data-behavior="openable">
+<div class="search">
+<div class="row">
+<div class="small-1 columns end">
+<a class="button postfix track-it" href="">
+<i class="ss-search large"></i>
+</a>
+</div>
+<div class="small-9 columns">
+<form accept-charset="UTF-8" action="http://www.oppenheimerfunds.com/investors/search.json" autocomplete="off" data-behavior="resetable auto-submit remote-form" data-enter-path="http://www.oppenheimerfunds.com/investors/search" data-target="#global-search-results" id="global_search_form" method="get"><div style="display:none"><input name="utf8" type="hidden" value="✓"></div>
+<input id="from" name="from" type="hidden" value="0"><input id="size" name="size" type="hidden" value="5"><input id="json" name="json" type="hidden" value="true">
+<input class="submit_global_search" name="commit" style="display: none;" type="submit" value="invisible submit">
+<div data-behavior="opener" data-target=".search-row">
+<div data-behavior="scroll-to" data-target=".search-row">
+<input class="search-control ui-autocomplete-input" data-behavior="shift-focus" data-target=".search-result-list" id="global_search" name="q" placeholder="Search" tabindex="-1" type="search" autocomplete="off">
+</div>
+</div>
+</form>
+
+</div>
+<div class="small-2 columns search-clear" data-behavior="scroll-to" data-target=".right-off-canvas-menu">
+<div data-behavior="reset-form" data-target="#global_search_form">
+<div data-behavior="closer" data-target=".search-row">CANCEL</div>
+</div>
+</div>
+</div>
+</div>
+<div class="top-align-loading" data-behavior="ajax-content-container openable clear-html" data-categories-empty-html="" data-categories-template="<li><a class='quick-link' href='{link}'>{label}</a></li>" data-links-empty-html="" data-links-template="<li><a class='quick-link' href='{link}'>{label}</a></li>" data-template="<ul class='mega-search-category-results'>{categoriesHtml}</ul><ul class='mega-search-link-results'>{linksHtml}</ul>" id="global-search-results"></div>
+</li>
+
+<li><a href="http://www.oppenheimerfunds.com/investors/login" onclick="return false;">Log In</a></li>
+
+<li><a class="track-it" data-linksrc="GHMP" href="http://www.oppenheimerfunds.com/investors/portfolio_summary/portfolio">My Portfolio</a></li>
+<li><a href="http://www.oppenheimerfunds.com/investors/my_profile/online_access/edit" class="track-it">My Profile</a></li>
+<li>
+<dl class="accordion top-level" data-accordion="" data-behavior="accordian-slide">
+<dd class="accordion-navigation">
+<a href="#menu_products" class="track-it">
+Products
+</a>
+<div class="content" id="menu_products">
+<ul>
+<li>
+<a href="http://www.oppenheimerfunds.com/investors/funds/mutual" class="track-it">Mutual Funds</a>
+</li>
+<li>
+<a href="http://www.oppenheimerfunds.com/investors/funds/etf" class="track-it">ETFs</a>
+</li>
+</ul>
+</div>
+</dd>
+</dl>
+</li>
+<li><a class="track-it" data-linksrc="GHRT" href="http://www.oppenheimerfunds.com/investors/landing/retirement-planning">Retirement</a></li>
+<li><a class="track-it" data-linksrc="GHCO" href="http://www.oppenheimerfunds.com/investors/landing/college-savings">College/529</a></li>
+<li><a class="track-it" data-linksrc="GHAB" href="http://www.oppenheimerfunds.com/investors/about-oppenheimerfunds">About Us</a></li>
+<li><a href="http://www.oppenheimerfunds.com/investors/contact-us" class="track-it">Contact Us</a></li>
+
+<li class="intersite">
+<select data-behavior="action-select">
+<option data-url="http://www.oppenheimerfunds.com/investors" selected="">
+Individual Investor
+</option>
+<option data-url="http://www.oppenheimerfunds.com/advisors">
+Financial Advisor
+</option>
+<option data-url="http://www.oppenheimerfunds.com/private-client-groups">
+Private Client Group
+</option>
+<option data-url="http://www.oppenheimerfunds.com/registered-investment-advisors">
+Registered Investment Advisor
+</option>
+<option data-url="http://www.ofiglobal.com/institutional-investors">
+Institutional Investor
+</option>
+<option data-url="http://www.oppenheimerfunds.com/planAdmin">
+OFI Retirement Plan Sponsors
+</option>
+</select>
+</li>
+
+</ul>
+</aside>
+
+</header>
+
+<section class="main-section">
+<!-- Cache:
+ interior_landing/pages/55c51183e4b03520328e0048-20161111213901000000000/investor/no-variant/user_signed_in-false/ofi_locale-en_US/fund_time_stamp-2016-11-10 06:35:34 -0500/footnote_time_stamp-2016-11-02 10:15:44 -0400/international_location_timestamp-2016-09-22 18:07:01 -0400/strategy_timestamp-2016-11-02 10:04:27 -0400/host-www.oppenheimerfunds.com --><!-- UI Component: Hero Layout 1 -->
+<section class="background-align-top background-image dark hero hero-1" data-section-name="hero layout 1" data-section-number="1">
+<div class="hero-background" style="background-image: url('http://www.oppenheimerfunds.com/edist-images/backgrounds/2016election-homepage-hero-v1.gif')"></div>
+<div class="header-video" classes="" data-behavior="openable">
+<div class="layer">
+<div class="letterbox" data-behavior="video" data-controls="{&quot;class&quot;:&quot;video-control&quot;,&quot;children&quot;:[{&quot;class&quot;:&quot;progress&quot;,&quot;children&quot;:[{&quot;class&quot;:&quot;meter&quot;}]},{&quot;class&quot;:&quot;bar&quot;,&quot;children&quot;:[{&quot;class&quot;:&quot;buttons&quot;,&quot;children&quot;:[{&quot;class&quot;:&quot;play-toggle&quot;}]},{&quot;class&quot;:&quot;video-title&quot;,&quot;children&quot;:[{&quot;tag&quot;:&quot;a&quot;,&quot;href&quot;:&quot;/investors/article/trump-uncertainty-but-longer-term-opportunity&quot;,&quot;children&quot;:[&quot;View Full Article &quot;,{&quot;tag&quot;:&quot;span&quot;,&quot;class&quot;:&quot;ss-icon ss-right&quot;}]},{&quot;tag&quot;:&quot;h3&quot;,&quot;children&quot;:&quot;Trump: Uncertainty But Longer Term Opportunity&quot;}]},{&quot;class&quot;:&quot;right buttons&quot;,&quot;children&quot;:[{&quot;class&quot;:&quot;full-screen-toggle&quot;},{&quot;tag&quot;:&quot;span&quot;,&quot;data-behavior&quot;:&quot;closer&quot;,&quot;data-target&quot;:&quot;.header-video&quot;,&quot;children&quot;:[{&quot;class&quot;:&quot;close&quot;,&quot;data-behavior&quot;:&quot;opener&quot;,&quot;data-target&quot;:&quot;.layout-content, .header&quot;}]}]}]}]}" data-video-id="5203106693001"><div class="core-video"><div data-embed="default" data-player="4yZAvrR5e" data-account="24488480001" data-video-id="5203106693001" class="video-container video-js vjs-mouse vjs-paused vjs-controls-disabled vjs-workinghover bc-player-4yZAvrR5e_default vjs-plugins-ready vjs-contextmenu vjs-contextmenu-ui vjs-player-info vjs-errors vjs-user-inactive" id="video_1" role="region" aria-label="video player"><video id="video_1_html5_api" class="vjs-tech" data-video-id="5203106693001" data-account="24488480001" data-player="4yZAvrR5e" data-embed="default" poster="https://bcsecure01-a.akamaihd.net/14/24488480001/201611/2962/24488480001_5203528592001_5203106693001-vs.jpg?pubId=24488480001&amp;videoId=5203106693001" src="blob:https://www.oppenheimerfunds.com/6f40a3aa-45d5-45d3-a5b9-37e7d78bd081"></video><div></div><div class="vjs-poster" tabindex="-1" style="background-image: url(&quot;https://bcsecure01-a.akamaihd.net/14/24488480001/201611/2962/24488480001_5203528592001_5203106693001-vs.jpg?pubId=24488480001&amp;videoId=5203106693001&quot;);"></div><div class="vjs-text-track-display" aria-live="assertive" aria-atomic="true"></div><div class="vjs-loading-spinner" dir="ltr"></div><button class="vjs-big-play-button" type="button" aria-live="polite" title="Play Video"><span class="vjs-control-text">Play Video</span></button><div class="vjs-control-bar" dir="ltr" role="group"><button class="vjs-play-control vjs-control vjs-button " type="button" aria-live="polite" title="Play"><span class="vjs-control-text">Play</span></button><div class="vjs-volume-menu-button vjs-menu-button vjs-menu-button-inline vjs-control vjs-button  vjs-volume-menu-button-horizontal vjs-vol-3" tabindex="0" role="button" aria-live="polite" title="Mute"><div class="vjs-menu"><div class="vjs-menu-content"><div tabindex="0" class="vjs-volume-bar vjs-slider-bar vjs-slider vjs-slider-horizontal" role="slider" aria-valuenow="100.00" aria-valuemin="0" aria-valuemax="100" aria-label="volume level" aria-valuetext="100.00%"><div class="vjs-volume-level"><span class="vjs-control-text"></span></div></div></div></div><span class="vjs-control-text">Mute</span></div><div class="vjs-current-time vjs-time-control vjs-control vjs-time-controls"><div class="vjs-current-time-display" aria-live="off"><span class="vjs-control-text">Current Time </span>0:00</div></div><div class="vjs-time-control vjs-time-divider vjs-time-controls"><div><span>/</span></div></div><div class="vjs-duration vjs-time-control vjs-control vjs-time-controls"><div class="vjs-duration-display" aria-live="off"><span class="vjs-control-text">Duration Time</span> 8:42</div></div><div class="vjs-progress-control vjs-control"><div tabindex="0" class="vjs-progress-holder vjs-slider vjs-slider-horizontal" role="slider" aria-valuenow="NaN" aria-valuemin="0" aria-valuemax="100" aria-label="progress bar" aria-valuetext="0:00"><div class="vjs-load-progress" style="width: 1.91123%;"><span class="vjs-control-text"><span>Loaded</span>: 0%</span><div style="left: 0.120903%; width: 99.8791%;"></div></div><div class="vjs-mouse-display vjs-keep-tooltips-inside" data-current-time="0:00" style="left: 0px;"><div class="vjs-time-tooltip">0:00</div></div><div class="vjs-play-progress vjs-slider-bar vjs-keep-tooltips-inside" data-current-time="0:00"><span class="vjs-control-text"><span>Progress</span>: 0%</span></div><div class="vjs-tooltip-progress-bar vjs-slider-bar" data-current-time="0:00" aria-valuenow="NaN" aria-valuetext="0:00"><div class="vjs-time-tooltip">0:00</div>
+        <span class="vjs-control-text"><span>Progress</span>: 0%</span></div></div></div><div class="vjs-live-control vjs-control vjs-live-controls vjs-hidden"><div class="vjs-live-display" aria-live="off"><span class="vjs-control-text">Stream Type</span>LIVE</div></div><div class="vjs-remaining-time vjs-time-control vjs-control vjs-time-controls"><div class="vjs-remaining-time-display" aria-live="off"><span class="vjs-control-text">Remaining Time</span> -8:42</div></div><div class="vjs-custom-control-spacer vjs-spacer ">&nbsp;</div><div class="vjs-playback-rate vjs-menu-button vjs-menu-button-popup vjs-control vjs-button vjs-hidden" tabindex="0" role="menuitem" aria-live="polite" title="Playback Rate" aria-expanded="false" aria-haspopup="true"><div class="vjs-menu" role="presentation"><ul class="vjs-menu-content" role="menu"></ul></div><span class="vjs-control-text">Playback Rate</span><div class="vjs-playback-rate-value">1</div></div><div class="vjs-chapters-button vjs-menu-button vjs-menu-button-popup vjs-control vjs-button vjs-hidden" tabindex="0" role="menuitem" aria-live="polite" title="Chapters" aria-expanded="false" aria-haspopup="true" aria-label="Chapters Menu"><div class="vjs-menu" role="presentation"><ul class="vjs-menu-content" role="menu"><li class="vjs-menu-title" tabindex="-1">Chapters</li></ul></div><span class="vjs-control-text">Chapters</span></div><div class="vjs-descriptions-button vjs-menu-button vjs-menu-button-popup vjs-control vjs-button vjs-hidden" tabindex="0" role="menuitem" aria-live="polite" title="Descriptions" aria-expanded="false" aria-haspopup="true" aria-label="Descriptions Menu" aria-disabled="false"><div class="vjs-menu" role="presentation"><ul class="vjs-menu-content" role="menu"><li class="vjs-menu-item vjs-selected" tabindex="-1" role="menuitemcheckbox" aria-live="polite" aria-checked="true" title=", selected">descriptions off<span class="vjs-control-text">, selected</span></li></ul></div><span class="vjs-control-text">Descriptions</span></div><div class="vjs-subtitles-button vjs-menu-button vjs-menu-button-popup vjs-control vjs-button vjs-hidden" tabindex="0" role="menuitem" aria-live="polite" title="Subtitles" aria-expanded="false" aria-haspopup="true" aria-label="Subtitles Menu"><div class="vjs-menu" role="presentation"><ul class="vjs-menu-content" role="menu"><li class="vjs-menu-item vjs-selected" tabindex="-1" role="menuitemcheckbox" aria-live="polite" aria-checked="true" title=", selected">subtitles off<span class="vjs-control-text">, selected</span></li></ul></div><span class="vjs-control-text">Subtitles</span></div><div class="vjs-captions-button vjs-menu-button vjs-menu-button-popup vjs-control vjs-button vjs-hidden" tabindex="0" role="menuitem" aria-live="polite" title="Captions" aria-expanded="false" aria-haspopup="true" aria-label="Captions Menu"><div class="vjs-menu" role="presentation"><ul class="vjs-menu-content" role="menu"><li class="vjs-menu-item vjs-texttrack-settings" tabindex="-1" role="menuitem" aria-live="polite" title=", opens captions settings dialog">captions settings<span class="vjs-control-text">, opens captions settings dialog</span></li><li class="vjs-menu-item vjs-selected" tabindex="-1" role="menuitemcheckbox" aria-live="polite" aria-checked="true" title=", selected">captions off<span class="vjs-control-text">, selected</span></li></ul></div><span class="vjs-control-text">Captions</span></div><div class="vjs-audio-button vjs-menu-button vjs-menu-button-popup vjs-control vjs-button vjs-hidden" tabindex="0" role="menuitem" aria-live="polite" title="Audio Track" aria-expanded="false" aria-haspopup="true" aria-label="Audio Menu"><div class="vjs-menu" role="presentation"><ul class="vjs-menu-content" role="menu"><li class="vjs-menu-item vjs-selected" tabindex="-1" role="menuitemcheckbox" aria-live="polite" aria-checked="true" title=", selected">default<span class="vjs-control-text">, selected</span></li></ul></div><span class="vjs-control-text">Audio Track</span></div><button class="vjs-fullscreen-control vjs-control vjs-button " type="button" aria-live="polite" title="Fullscreen"><span class="vjs-control-text">Fullscreen</span></button></div><div class="vjs-error-display vjs-modal-dialog vjs-hidden " tabindex="-1" aria-describedby="video_1_component_407_description" aria-hidden="true" aria-label="Modal Window" role="dialog"><p class="vjs-modal-dialog-description vjs-offscreen" id="video_1_component_407_description">This is a modal window.</p><div class="vjs-modal-dialog-content" role="document"></div></div><div class="vjs-caption-settings vjs-modal-overlay vjs-hidden" tabindex="-1" role="dialog" aria-labelledby="TTsettingsDialogLabel-video_1_component_412" aria-describedby="TTsettingsDialogDescription-video_1_component_412">
+    <div role="document">
+      <div role="heading" aria-level="1" id="TTsettingsDialogLabel-video_1_component_412" class="vjs-control-text">Captions Settings Dialog</div>
+      <div id="TTsettingsDialogDescription-video_1_component_412" class="vjs-control-text">Beginning of dialog window. Escape will cancel and close the window.</div>
+      <div class="vjs-tracksettings">
+        <div class="vjs-tracksettings-colors">
+          <fieldset class="vjs-fg-color vjs-tracksetting">
+            <legend>Text</legend>
+            <label class="vjs-label" for="captions-foreground-color-video_1_component_412">Color</label>
+            <select id="captions-foreground-color-video_1_component_412">
+              <option value="#FFF" selected="">White</option>
+              <option value="#000">Black</option>
+              <option value="#F00">Red</option>
+              <option value="#0F0">Green</option>
+              <option value="#00F">Blue</option>
+              <option value="#FF0">Yellow</option>
+              <option value="#F0F">Magenta</option>
+              <option value="#0FF">Cyan</option>
+            </select>
+            <span class="vjs-text-opacity vjs-opacity">
+              <label class="vjs-label" for="captions-foreground-opacity-video_1_component_412">Transparency</label>
+              <select id="captions-foreground-opacity-video_1_component_412">
+                <option value="1" selected="">Opaque</option>
+                <option value="0.5">Semi-Opaque</option>
+              </select>
+            </span>
+          </fieldset>
+          <fieldset class="vjs-bg-color vjs-tracksetting">
+            <legend>Background</legend>
+            <label class="vjs-label" for="captions-background-color-video_1_component_412">Color</label>
+            <select id="captions-background-color-video_1_component_412">
+              <option value="#000" selected="">Black</option>
+              <option value="#FFF">White</option>
+              <option value="#F00">Red</option>
+              <option value="#0F0">Green</option>
+              <option value="#00F">Blue</option>
+              <option value="#FF0">Yellow</option>
+              <option value="#F0F">Magenta</option>
+              <option value="#0FF">Cyan</option>
+            </select>
+            <span class="vjs-bg-opacity vjs-opacity">
+              <label class="vjs-label" for="captions-background-opacity-video_1_component_412">Transparency</label>
+              <select id="captions-background-opacity-video_1_component_412">
+                <option value="1" selected="">Opaque</option>
+                <option value="0.5">Semi-Transparent</option>
+                <option value="0">Transparent</option>
+              </select>
+            </span>
+          </fieldset>
+          <fieldset class="window-color vjs-tracksetting">
+            <legend>Window</legend>
+            <label class="vjs-label" for="captions-window-color-video_1_component_412">Color</label>
+            <select id="captions-window-color-video_1_component_412">
+              <option value="#000" selected="">Black</option>
+              <option value="#FFF">White</option>
+              <option value="#F00">Red</option>
+              <option value="#0F0">Green</option>
+              <option value="#00F">Blue</option>
+              <option value="#FF0">Yellow</option>
+              <option value="#F0F">Magenta</option>
+              <option value="#0FF">Cyan</option>
+            </select>
+            <span class="vjs-window-opacity vjs-opacity">
+              <label class="vjs-label" for="captions-window-opacity-video_1_component_412">Transparency</label>
+              <select id="captions-window-opacity-video_1_component_412">
+                <option value="0" selected="">Transparent</option>
+                <option value="0.5">Semi-Transparent</option>
+                <option value="1">Opaque</option>
+              </select>
+            </span>
+          </fieldset>
+        </div> <!-- vjs-tracksettings-colors -->
+        <div class="vjs-tracksettings-font">
+          <div class="vjs-font-percent vjs-tracksetting">
+            <label class="vjs-label" for="captions-font-size-video_1_component_412">Font Size</label>
+            <select id="captions-font-size-video_1_component_412">
+              <option value="0.50">50%</option>
+              <option value="0.75">75%</option>
+              <option value="1.00" selected="">100%</option>
+              <option value="1.25">125%</option>
+              <option value="1.50">150%</option>
+              <option value="1.75">175%</option>
+              <option value="2.00">200%</option>
+              <option value="3.00">300%</option>
+              <option value="4.00">400%</option>
+            </select>
+          </div>
+          <div class="vjs-edge-style vjs-tracksetting">
+            <label class="vjs-label" for="captions-edge-style-video_1_component_412">Text Edge Style</label>
+            <select id="captions-edge-style-video_1_component_412">
+              <option value="none" selected="">None</option>
+              <option value="raised">Raised</option>
+              <option value="depressed">Depressed</option>
+              <option value="uniform">Uniform</option>
+              <option value="dropshadow">Dropshadow</option>
+            </select>
+          </div>
+          <div class="vjs-font-family vjs-tracksetting">
+            <label class="vjs-label" for="captions-font-family-video_1_component_412">Font Family</label>
+            <select id="captions-font-family-video_1_component_412">
+              <option value="proportionalSansSerif" selected="">Proportional Sans-Serif</option>
+              <option value="monospaceSansSerif">Monospace Sans-Serif</option>
+              <option value="proportionalSerif">Proportional Serif</option>
+              <option value="monospaceSerif">Monospace Serif</option>
+              <option value="casual">Casual</option>
+              <option value="script">Script</option>
+              <option value="small-caps">Small Caps</option>
+            </select>
+          </div>
+        </div> <!-- vjs-tracksettings-font -->
+        <div class="vjs-tracksettings-controls">
+          <button class="vjs-default-button">Defaults</button>
+          <button class="vjs-done-button">Done</button>
+        </div>
+      </div> <!-- vjs-tracksettings -->
+    </div> <!--  role="document" -->
+  </div><div class="vjs-modal-dialog vjs-hidden vjs-player-info-modal" tabindex="-1" aria-describedby="video_1_component_3595_description" aria-hidden="true" aria-label="Player Information Dialog" role="dialog"><button class="vjs-close-button vjs-control vjs-button " type="button" aria-live="polite" title="Close Modal Dialog"><span class="vjs-control-text">Close Modal Dialog</span></button><p class="vjs-modal-dialog-description vjs-offscreen" id="video_1_component_3595_description">This is a modal window. This modal can be closed by pressing the Escape key or activating the close button.</p><div class="vjs-modal-dialog-content" role="document"></div></div><div class="video-control"><div class="progress"><div class="meter"></div></div><div class="bar"><div class="buttons"><div class="play-toggle"></div></div><div class="video-title"><a href="http://www.oppenheimerfunds.com/investors/article/trump-uncertainty-but-longer-term-opportunity">View Full Article <span class="ss-icon ss-right"></span></a><h3>Trump: Uncertainty But Longer Term Opportunity</h3></div><div class="right buttons"><div class="full-screen-toggle"></div><span data-behavior="closer" data-target=".header-video"><div class="close" data-behavior="opener" data-target=".layout-content, .header"></div></span></div></div></div><script src="http://www.oppenheimerfunds.com//players.brightcove.net/1719543778001/vttjs/dist/vtt.min.js"></script></div><div class="error-message">There was an error loading your video.</div></div></div>
+</div>
+</div>
+
+<div class="layout-content open" data-behavior="openable">
+<div class="flex-center layer call-to-action" data-behavior="opener" data-target=".header-video">
+<div class="flex-center layer call-to-action" data-behavior="closer" data-target=".layout-content">
+<div class="row collapse call-to-action" id="tasks">
+  <div id="appian-task" themeIdentifier="ofi-custodian-portal" />
+</div>
+<div class="row collapse call-to-action" id="12345">
+<div class="medium-8 small-12 columns">
+<div class="media-container">
+
+<h1>Trump: Uncertainty But Longer Term Opportunity</h1>
+<p>The election of Donald Trump creates uncertainty and opportunity in the markets.</p>
+<div class="personality-content">
+<img alt="Bw krishna memani headshot2" src="http://www.oppenheimerfunds.com/edist-images/personality/bw_krishna-memani-headshot2.png">
+<p>Krishna Memani</p>
+<p>Chief Investment Officer, Portfolio Manager </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="login-layer show-for-medium-up">
+<div class="row collapse flex-center login-wrapper">
+<div class="login-form" id="login-form">
+<form accept-charset="UTF-8" action="#" class="cross-channel-login-form responsive-form h5validate" method="post"><div style="display:none"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="Deir+IQvlYzrNmvLlUb2/mTG7/modMy3GCBfLaNbjN4="></div>
+<input class="device_print_info" id="device" name="investor[device]" type="hidden" value="{&quot;screen&quot;:{&quot;screenWidth&quot;:1536,&quot;screenHeight&quot;:960,&quot;screenColourDepth&quot;:24},&quot;timezone&quot;:{&quot;timezone&quot;:300},&quot;plugins&quot;:{&quot;installedPlugins&quot;:&quot;widevinecdmadapter.dll;pepflashplayer.dll;mhjfbmdgcfjbbpaeojofohoefgiehjai;internal-nacl-plugin;internal-pdf-viewer;&quot;},&quot;fonts&quot;:{&quot;installedFonts&quot;:&quot;cursive;monospace;serif;sans-serif;fantasy;default;Arial;Arial Black;Arial Narrow;Bookman Old Style;Bradley Hand ITC;Century;Century Gothic;Comic Sans MS;Courier;Courier New;Georgia;Impact;Lucida Console;Monotype Corsiva;Papyrus;Tahoma;Times;Times New Roman;Trebuchet MS;Verdana;&quot;},&quot;userAgent&quot;:&quot;Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36&quot;,&quot;appName&quot;:&quot;Netscape&quot;,&quot;appCodeName&quot;:&quot;Mozilla&quot;,&quot;appVersion&quot;:&quot;5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36&quot;,&quot;platform&quot;:&quot;Win32&quot;,&quot;product&quot;:&quot;Gecko&quot;,&quot;productSub&quot;:&quot;20030107&quot;,&quot;vendor&quot;:&quot;Google Inc.&quot;,&quot;language&quot;:&quot;en-US&quot;}">
+<label class="required control-label" for="role">Select Login Type</label>
+<select data-behavior="smart-select" id="login-role" name="role" tabindex="1" style="display: none;"><option selected="selected" value="investor">Individual Investor</option>
+<option value="advisor">Financial Advisor</option>
+<option value="planAdmin">OFI Retirement Plan Sponsors</option></select><div class="smart-select-wrapper  undefined" data-default="undefined"><div class="control" tabindex="1">Individual Investor</div><span class="arrow"></span><ul class="option-list"><li class="option selected " data-value="investor">Individual Investor</li><li class="option " data-value="advisor">Financial Advisor</li><li class="option " data-value="planAdmin">OFI Retirement Plan Sponsors</li></ul></div>
+<div>
+<label class="string required control-label" for="username">Enter User ID</label>
+<input class="string required" id="username" name="investor[username]" placeholder="Enter User ID" required="required" tabindex="2" type="text"></input>
+</div>
+<div class="error-msg">User ID is required</div>
+<div class="help-link">
+<a class="cross-channel-forgot-username track-it" href="http://www.oppenheimerfunds.com/investors/forgot_user_id/new" data-linksrc="INHP1">Forgot User ID?</a>
+</div>
+<div class="ie-placeholder-wrapper">
+<label class="password optional control-label" for="password">Enter Password</label>
+<input class="password optional" id="password" name="investor[password]" placeholder="Enter Password" required="required" tabindex="3" type="password">
+</div>
+<div class="error-msg">Password is required</div>
+<div class="help-link">
+<a class="cross-channel-forgot-password track-it" href="http://www.oppenheimerfunds.com/investors/forgot_password" data-linksrc="INHP2">Forgot Password?</a>
+</div>
+<div class="control remember-me" id="remember_me_field" style="visibility:hidden">
+<input id="remember_me_1" name="remember_me" type="checkbox" value="true">
+<label class="control-label" for="remember_me_1">
+Remember Me
+</label>
+</div>
+<button class="button" data-disable-with="please wait..." id="cross-channel-login-submit" name="button" tabindex="4" type="information" onclick="$('#12345').html(''); $('#login-form').html(''); $('#login-form').remove();showTaskList(); return false;">Log in</button>
+<div class="bottom-help-body">
+Forgot
+<a class="cross-channel-forgot-username track-it" href="http://www.oppenheimerfunds.com/investors/forgot_user_id/new" data-linksrc="INHP3">User ID</a>
+or&nbsp;<a class="cross-channel-forgot-password track-it" href="http://www.oppenheimerfunds.com/investors/forgot_password" data-linksrc="INHP4">Password</a>? |
+<a class="cross-channel-register track-it" href="http://www.oppenheimerfunds.com/investors/register" data-linksrc="INHP5">Register</a>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+<li class="hide show-for-print">
+<strong>A. </strong>
+<span id="_fnA">Daily net asset value and dollar change of the fund is as of the previous business day's closing. Fund net asset values are updated at approximately 7 p.m. ET daily.</span>
+<a href="#fundA" title="Jump back to fund-footnote A" class="track-it" data-linksrc="INHP73">↩</a>
+</li>
+
+</ol>
+</div>
+</div>
+</div>
+</div>
+
+
+</section>
+<footer data-section-name="Footer" data-section-number="-1">
+<div class="footer">
+<div class="row footer-top">
+<div class="medium-12 columns">
+<div class="footer-brand medium-5 columns">
+<a class="logo track-it" href="http://www.oppenheimerfunds.com/investors" data-linksrc="GHFT1" data-content-number="1" data-section-name="Utility Footer">OppenheimerFunds</a>
+</div>
+<div class="social-links medium-7 columns" data-behavior="social-links">
+<ul>
+<li class="medium-1 medium-offset-8 small-3 columns">
+<a alt="OppenheimerFunds Twitter" data-share="true" data-social-type="Twitter" href="http://twitter.com/OppFunds" target="_blank" class="track-it" data-linksrc="GHFT2" data-content-number="2" data-section-name="Utility Footer" data-routine="metricsSocialRoutine">
+<i class="icon-twitter"></i>
+</a>
+</li>
+<li class="medium-1 small-3 columns">
+<a alt="OppenheimerFunds LinkedIn" data-share="true" data-social-type="LinkedIn" href="http://www.linkedin.com/company/oppenheimerfunds" target="_blank" class="track-it" data-linksrc="GHFT3" data-content-number="3" data-section-name="Utility Footer" data-routine="metricsSocialRoutine">
+<i class="icon-linkedin"></i>
+</a>
+</li>
+<li class="medium-1 small-3 columns">
+<a alt="OppenheimerFunds Facebook" data-share="true" data-social-type="Facebook" href="http://www.facebook.com/OppFunds" target="_blank" class="track-it" data-linksrc="GHFT4" data-content-number="4" data-section-name="Utility Footer" data-routine="metricsSocialRoutine">
+<i class="icon-facebook"></i>
+</a>
+</li>
+<li class="medium-1 small-3 columns">
+<a alt="OppenheimerFunds YouTube" data-share="true" data-social-type="Youtube" href="http://youtube.com/oppfunds" target="_blank" class="track-it" data-linksrc="GHFT5" data-content-number="5" data-section-name="Utility Footer" data-routine="metricsSocialRoutine">
+<i class="icon-youtube"></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row footer-middle">
+<div class="medium-3 columns">
+<ul>
+<li class="medium-12 columns">
+<p class="footer-header">
+Customer Service
+</p>
+<a href="tel:1-800-525-7048" class="track-it" data-linksrc="GHFT6" data-content-number="1" data-section-name="Footer Column 1">1.800.525.7048</a>
+<a alt="Contact OppenheimerFunds" href="http://www.oppenheimerfunds.com/investors/contact-us" class="track-it" data-linksrc="GHFT7" data-content-number="2" data-section-name="Footer Column 1">Contact Us</a>
+<a alt="OppenheimerFunds Frequently Asked Questions" href="http://www.oppenheimerfunds.com/investors/faq/general-account" class="track-it" data-linksrc="GHFT8" data-content-number="3" data-section-name="Footer Column 1">FAQ</a>
+<a alt="Give Feedback" data-behavior="feedback" href="#" class="track-it" data-linksrc="GHFT9" data-content-number="4" data-section-name="Footer Column 1">Give Feedback</a>
+</li>
+</ul>
+</div>
+<div class="medium-3 columns">
+<ul>
+<li class="medium-12 columns">
+<p class="footer-header">
+Tools &amp; Support
+</p>
+<a alt="OppenheimerFunds Advisor Tax Center" href="http://www.oppenheimerfunds.com/investors/landing/tax-center" class="track-it" data-linksrc="GHFT10" data-content-number="1" data-section-name="Footer Column 2">Tax Center</a>
+<a alt="OppenheimerFunds Sitemap" href="http://www.oppenheimerfunds.com/investors/sitemap.html" target="_blank" class="track-it" data-linksrc="GHFT11" data-content-number="2" data-section-name="Footer Column 2">Sitemap</a>
+</li>
+</ul>
+</div>
+<div class="medium-3 columns">
+<ul>
+<li class="medium-12 columns">
+<p class="footer-header">
+Company
+</p>
+<a alt="About OppenheimerFunds" href="http://www.oppenheimerfunds.com/investors/about-oppenheimerfunds" class="track-it" data-linksrc="GHFT12" data-content-number="1" data-section-name="Footer Column 3">About Us</a>
+<a alt="OppenheimerFunds Careers" href="https://careers.oppenheimerfunds.com/" target="_blank" class="track-it" data-linksrc="GHFT13" data-content-number="2" data-section-name="Footer Column 3">Careers</a>
+<a alt="OppenheimerFunds Press Releases" href="http://www.oppenheimerfunds.com/investors/press-room" class="track-it" data-linksrc="GHFT14" data-content-number="3" data-section-name="Footer Column 3">Press Room</a>
+<a href="http://www.oppenheimerfunds.com/investors/portfolio-managers" class="track-it" data-linksrc="GHFT15" data-content-number="4" data-section-name="Footer Column 3">Fund Managers</a>
+</li>
+</ul>
+</div>
+<div class="medium-3 columns">
+<ul>
+<li class="medium-12 columns">
+<p class="footer-header">
+Policies
+</p>
+<a href="http://www.oppenheimerfunds.com/investors/da/Business_Continuity_Plan.pdf" target="_blank" class="track-it" data-linksrc="GHFT16" data-content-number="1" data-section-name="Footer Column 4">Business Continuity</a>
+<a href="http://www.oppenheimerfunds.com/investors/article/online-account-access" class="track-it" data-linksrc="GHFT17" data-content-number="2" data-section-name="Footer Column 4">Online Account Access Policy</a>
+<a href="http://www.oppenheimerfunds.com/investors/article/privacy-policy" class="track-it" data-linksrc="GHFT18" data-content-number="3" data-section-name="Footer Column 4">Privacy Policy/Terms of Use</a>
+<a href="http://www.oppenheimerfunds.com/investors/article/act-quickly-if-you-suspect-identity-theft" class="track-it" data-linksrc="GHFT19" data-content-number="4" data-section-name="Footer Column 4">Security</a>
+<a href="http://www.oppenheimerfunds.com/investors/article/social-media" class="track-it" data-linksrc="GHFT20" data-content-number="5" data-section-name="Footer Column 4">Social Media</a>
+</li>
+</ul>
+</div>
+
+<div class="medium-12 columns">
+<p class="footer-copyright">
+©
+2016
+OppenheimerFunds Distributor, Inc. All rights reserved.
+</p>
+<div class="legal-disclaimer">
+<p class="legal-text-top">
+Shares of Oppenheimer funds are not deposits or obligations of any bank, are not guaranteed by any bank, are not insured by the FDIC or any other agency, and involve investment risks, including the possible loss of the principal amount invested.
+</p>
+<p class="legal-text-bottom">
+Before investing in any of the Oppenheimer funds, investors should carefully consider a fund's
+investment objectives, risks, charges and expenses. Fund prospectuses and summary prospectuses
+contain this and other information about the funds, and may be obtained by asking your financial
+advisor, visiting <a class="visible-toggle-control track-it" href="http://www.oppenheimerfunds.com/investors" data-linksrc="GHFT21">oppenheimerfunds.com</a>, or calling <a href="tel:1-800-525-7048" class="track-it" data-linksrc="GHFT22">1.800.525.7048</a>.
+<a class="visible-toggle-control track-it" href="http://www.oppenheimerfunds.com/investors/funds/documents" data-linksrc="GHFT23">Read prospectuses and summary prospectuses </a>
+carefully before investing.
+</p>
+</div>
+</div>
+</div>
+<div class="row footer-bottom">
+<div class="medium-12 columns">
+<p>
+<span class="small-cap">
+Oppenheimer Funds are distributed by
+</span>
+<small>
+<span class="text-bold">
+OppenheimerFunds Distributor, Inc.
+</span>
+</small>
+</p>
+</div>
+</div>
+</div>
+
+</footer>
+</div>
+</div>
+
+<!-- <appian-task taskId="1896" /> -->
+</html>
