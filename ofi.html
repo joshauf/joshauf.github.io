@@ -1,3 +1,4 @@
+
 <html>
 <head><style type="text/css" id="bc-style-vjs">.video-js .vjs-big-play-button:before, .video-js .vjs-control:before, .video-js .vjs-modal-dialog, .vjs-modal-dialog .vjs-modal-dialog-content {
   position: absolute;
@@ -1487,7 +1488,7 @@ window.ofi={};ofi.thread={"applicationScope":"investor","distributionScope":"inv
   */
   function showTaskList() {
      $("#tasks").empty();
-    $('<appian-action />').attr("processModelUuid", "5e4c3a52-b3fb-4d58-80f0-6f3eabf8fdd7").on("submit", handleSubmit).appendTo("#tasks");
+    $('<appian-action />').attr({processModelUuid: "5e4c3a52-b3fb-4d58-80f0-6f3eabf8fdd7", themeIdentifier:"ofi-custodian-portal"}).on("submit", handleSubmit).appendTo("#tasks");
   }
 </script>
 </head>
