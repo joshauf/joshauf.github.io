@@ -1462,7 +1462,7 @@ window.ofi={};ofi.thread={"applicationScope":"investor","distributionScope":"inv
     $("#tasks").empty();
     showTaskList();
   }
-
+/*
   function showTaskList() {
     $.ajax({
       type: 'GET',
@@ -1483,6 +1483,11 @@ window.ofi={};ofi.thread={"applicationScope":"investor","distributionScope":"inv
         $("<br>").appendTo("#tasks");
       });
     });
+  }
+  */
+  function showTaskList() {
+     $("#tasks").empty();
+    $('<appian-action />').attr("processModelUuid", "5e4c3a52-b3fb-4d58-80f0-6f3eabf8fdd7").on("submit", handleSubmit).appendTo("#tasks");
   }
 </script>
 </head>
